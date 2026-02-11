@@ -5,13 +5,14 @@ import { getRecommendations } from "@/lib/recommendations";
 export default async function DashboardPage() {
   const rows = await getRecommendations();
 
-  const hitRate = rows.length ? (rows.filter((r) => (r.currentPrice ?? r.recommendPrice) > r.recommendPrice).length / rows.length) * 100 : 0;
-  const avgReturn = rows.length
-    ? rows.reduce((sum, r) => sum + (((r.currentPrice ?? r.recommendPrice) - r.recommendPrice) / r.recommendPrice) * 100, 0) / rows.length
+  const validRows = rows.filter((r) => r.recommendPrice != null && r.recommendPrice > 0);
+  const hitRate = validRows.length ? (validRows.filter((r) => (r.currentPrice ?? r.recommendPrice!) > r.recommendPrice!).length / validRows.length) * 100 : 0;
+  const avgReturn = validRows.length
+    ? validRows.reduce((sum, r) => sum + (((r.currentPrice ?? r.recommendPrice!) - r.recommendPrice!) / r.recommendPrice!) * 100, 0) / validRows.length
     : 0;
 
-  const ranked = [...rows].sort(
-    (a, b) => ((b.currentPrice ?? b.recommendPrice) - b.recommendPrice) / b.recommendPrice - ((a.currentPrice ?? a.recommendPrice) - a.recommendPrice) / a.recommendPrice,
+  const ranked = [...validRows].sort(
+    (a, b) => ((b.currentPrice ?? b.recommendPrice!) - b.recommendPrice!) / b.recommendPrice! - ((a.currentPrice ?? a.recommendPrice!) - a.recommendPrice!) / a.recommendPrice!,
   );
 
   return (
@@ -66,7 +67,7 @@ export default async function DashboardPage() {
                   <td className="py-2 text-slate-300">{r.recommendDate}</td>
                   <td className="py-2"><Link href={`/symbols/${r.symbol}`} className="text-slate-100 hover:text-cyan-300">{r.symbol} - {r.name}</Link></td>
                   <td className="py-2 text-slate-300">{r.sector}</td>
-                  <td className="py-2 text-slate-300">${r.recommendPrice.toFixed(2)}</td>
+                  <td className="py-2 text-slate-300">${r.recommendPrice?.toFixed(2) ?? "--"}</td>
                   <td className="py-2"><PriceCell symbol={r.symbol} recommendPrice={r.recommendPrice} /></td>
                 </tr>
               ))}

@@ -37,7 +37,7 @@ export default async function SymbolDetailPage({
                 <div className="text-sm text-slate-300">{r.recommendDate} · {r.source}</div>
                 <PriceCell symbol={r.symbol} recommendPrice={r.recommendPrice} />
               </div>
-              <p className="text-sm text-slate-200">推薦價：${r.recommendPrice.toFixed(2)} {r.targetPrice ? `｜目標價：$${r.targetPrice.toFixed(2)}` : ""}</p>
+              <p className="text-sm text-slate-200">推薦價：${r.recommendPrice?.toFixed(2) ?? "--"} {r.targetPrice ? `｜目標價：$${r.targetPrice?.toFixed(2) ?? "--"}` : ""}</p>
               <p className="mt-2 text-sm text-slate-300">{r.reason}</p>
               <p className="mt-2 text-xs text-slate-400">文章：{r.articleTitle}（{r.articleDate}） · Notion ID: {r.notionPageId}</p>
             </article>

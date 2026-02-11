@@ -6,7 +6,9 @@ export default async function PerformancePage() {
 
   const withReturns = rows.map((r) => ({
     ...r,
-    returnPct: (((r.currentPrice ?? r.recommendPrice) - r.recommendPrice) / r.recommendPrice) * 100,
+    returnPct: r.recommendPrice != null && r.recommendPrice > 0
+      ? (((r.currentPrice ?? r.recommendPrice) - r.recommendPrice) / r.recommendPrice) * 100
+      : 0,
   }));
 
   const groupedBySymbol = rows.reduce<Record<string, typeof rows>>((acc, row) => {

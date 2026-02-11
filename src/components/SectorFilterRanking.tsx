@@ -47,7 +47,7 @@ export default function SectorFilterRanking({ rows, sectors }: Props) {
                 <td className="py-2"><Link className="hover:text-cyan-300" href={`/symbols/${r.symbol}`}>{r.symbol} - {r.name}</Link></td>
                 <td className="py-2">{r.sector}</td>
                 <td className={`py-2 text-right ${r.returnPct >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
-                  {r.returnPct.toFixed(2)}%
+                  {(r.returnPct?.toFixed(2) ?? "--")}%
                 </td>
               </tr>
             ))}
