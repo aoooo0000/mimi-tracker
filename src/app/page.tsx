@@ -12,7 +12,16 @@ export default async function DashboardPage() {
     ? validRows.reduce((sum, r) => sum + (((r.currentPrice ?? r.recommendPrice!) - r.recommendPrice!) / r.recommendPrice!) * 100, 0) / validRows.length
     : 0;
 
-  const ranked = [...validRows].sort(
+  // Deduplicate: keep only the latest recommendation per symbol
+  const latestBySymbol = new Map<string, typeof validRows[number]>();
+  for (const r of validRows) {
+    if (!latestBySymbol.has(r.symbol)) {
+      latestBySymbol.set(r.symbol, r); // rows already sorted by date desc
+    }
+  }
+  const uniqueRows = [...latestBySymbol.values()];
+
+  const ranked = [...uniqueRows].sort(
     (a, b) => ((b.currentPrice ?? b.recommendPrice!) - b.recommendPrice!) / b.recommendPrice! - ((a.currentPrice ?? a.recommendPrice!) - a.recommendPrice!) / a.recommendPrice!,
   );
 
@@ -23,7 +32,7 @@ export default async function DashboardPage() {
     <QuotesProvider symbols={allSymbols}>
       <div className="space-y-6">
         <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="card"><p className="text-sm text-slate-400">推薦總數</p><p className="mt-1 text-2xl font-semibold">{rows.length}</p></div>
+          <div className="card"><p className="text-sm text-slate-400">追蹤標的</p><p className="mt-1 text-2xl font-semibold">{uniqueRows.length}</p></div>
           <div className="card"><p className="text-sm text-slate-400">整體命中率</p><p className="mt-1 text-2xl font-semibold text-cyan-300">{hitRate.toFixed(1)}%</p></div>
           <div className="card"><p className="text-sm text-slate-400">平均報酬率</p><p className={`mt-1 text-2xl font-semibold ${avgReturn >= 0 ? "text-emerald-400" : "text-rose-400"}`}>{avgReturn.toFixed(2)}%</p></div>
           <div className="card"><p className="text-sm text-slate-400">追蹤板塊</p><p className="mt-1 text-2xl font-semibold">{new Set(rows.map((r) => r.sector)).size}</p></div>
@@ -67,7 +76,7 @@ export default async function DashboardPage() {
                 </tr>
               </thead>
               <tbody>
-                {rows.slice(0, 8).map((r) => (
+                {uniqueRows.slice(0, 8).map((r) => (
                   <tr key={r.id} className="border-t border-slate-800">
                     <td className="py-2 text-slate-300">{r.recommendDate}</td>
                     <td className="py-2"><Link href={`/symbols/${r.symbol}`} className="text-slate-100 hover:text-cyan-300">{r.symbol} - {r.name}</Link></td>
