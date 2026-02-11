@@ -1,0 +1,72 @@
+[
+  {
+    "id": "rec-nvda-2025-11-01",
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "sector": "AI晶片",
+    "recommendDate": "2025-11-01",
+    "recommendPrice": 135.22,
+    "targetPrice": 170,
+    "reason": "AI伺服器需求持續強勁，資料中心營收與毛利率維持高檔。",
+    "articleTitle": "AI基礎建設進入第二波，NVDA仍是核心",
+    "articleDate": "2025-11-01",
+    "source": "Mimivsjames",
+    "notionPageId": "notion_nvda_001"
+  },
+  {
+    "id": "rec-viav-2025-10-15",
+    "symbol": "VIAV",
+    "name": "Viavi Solutions Inc.",
+    "sector": "光通訊",
+    "recommendDate": "2025-10-15",
+    "recommendPrice": 8.14,
+    "targetPrice": 11,
+    "reason": "800G/1.6T 升級週期啟動，測試設備需求有望提升。",
+    "articleTitle": "AI資料中心升級下的隱形冠軍",
+    "articleDate": "2025-10-15",
+    "source": "深度會員",
+    "notionPageId": "notion_viav_002"
+  },
+  {
+    "id": "rec-umc-2025-09-20",
+    "symbol": "UMC",
+    "name": "United Microelectronics Corporation",
+    "sector": "半導體代工",
+    "recommendDate": "2025-09-20",
+    "recommendPrice": 7.46,
+    "targetPrice": 9.2,
+    "reason": "成熟製程庫存去化接近尾聲，車用與工控需求回溫。",
+    "articleTitle": "成熟製程復甦，UMC估值重評",
+    "articleDate": "2025-09-20",
+    "source": "長期投資",
+    "notionPageId": "notion_umc_003"
+  },
+  {
+    "id": "rec-ionq-2025-12-01",
+    "symbol": "IONQ",
+    "name": "IonQ, Inc.",
+    "sector": "量子計算",
+    "recommendDate": "2025-12-01",
+    "recommendPrice": 15.31,
+    "targetPrice": 24,
+    "reason": "政府與企業專案增加，量子雲服務接單能見度上升。",
+    "articleTitle": "量子計算商業化進展追蹤",
+    "articleDate": "2025-12-01",
+    "source": "美股輕鬆談",
+    "notionPageId": "notion_ionq_004"
+  },
+  {
+    "id": "rec-tlt-2025-08-12",
+    "symbol": "TLT",
+    "name": "iShares 20+ Year Treasury Bond ETF",
+    "sector": "債券ETF",
+    "recommendDate": "2025-08-12",
+    "recommendPrice": 91.66,
+    "targetPrice": 102,
+    "reason": "降息循環預期升溫，長天期公債具資本利得機會。",
+    "articleTitle": "利率轉折下的防守配置",
+    "articleDate": "2025-08-12",
+    "source": "長期投資",
+    "notionPageId": "notion_tlt_005"
+  }
+]
