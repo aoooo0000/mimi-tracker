@@ -2,7 +2,7 @@
 
 import { calcReturnPct } from "@/lib/calc";
 import { money, pct } from "@/lib/format";
-import { useLiveQuotes } from "@/hooks/useLiveQuotes";
+import { useQuotes } from "@/components/QuotesProvider";
 
 interface Props {
   symbol: string;
@@ -10,7 +10,7 @@ interface Props {
 }
 
 export default function PriceCell({ symbol, recommendPrice }: Props) {
-  const { quotes, loading } = useLiveQuotes([symbol]);
+  const { quotes, loading } = useQuotes();
   const price = quotes[symbol.toUpperCase()];
 
   const ret = calcReturnPct(recommendPrice, typeof price === "number" ? price : undefined);
