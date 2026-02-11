@@ -1,66 +1,48 @@
 import Link from "next/link";
 import PriceCell from "@/components/PriceCell";
 import { QuotesProvider } from "@/components/QuotesProvider";
+import StatsCards from "@/components/StatsCards";
+import TopRanking from "@/components/TopRanking";
 import { getRecommendations } from "@/lib/recommendations";
 
 export default async function DashboardPage() {
   const rows = await getRecommendations();
 
-  const validRows = rows.filter((r) => r.recommendPrice != null && r.recommendPrice > 0);
-  const hitRate = validRows.length ? (validRows.filter((r) => (r.currentPrice ?? r.recommendPrice!) > r.recommendPrice!).length / validRows.length) * 100 : 0;
-  const avgReturn = validRows.length
-    ? validRows.reduce((sum, r) => sum + (((r.currentPrice ?? r.recommendPrice!) - r.recommendPrice!) / r.recommendPrice!) * 100, 0) / validRows.length
-    : 0;
-
   // Deduplicate: keep only the latest recommendation per symbol
-  const latestBySymbol = new Map<string, typeof validRows[number]>();
-  for (const r of validRows) {
-    if (!latestBySymbol.has(r.symbol)) {
+  const latestBySymbol = new Map<string, (typeof rows)[number]>();
+  for (const r of rows) {
+    if (r.recommendPrice != null && r.recommendPrice > 0 && !latestBySymbol.has(r.symbol)) {
       latestBySymbol.set(r.symbol, r); // rows already sorted by date desc
     }
   }
   const uniqueRows = [...latestBySymbol.values()];
 
-  const ranked = [...uniqueRows].sort(
-    (a, b) => ((b.currentPrice ?? b.recommendPrice!) - b.recommendPrice!) / b.recommendPrice! - ((a.currentPrice ?? a.recommendPrice!) - a.recommendPrice!) / a.recommendPrice!,
-  );
-
   // Collect all unique symbols for batch fetching
   const allSymbols = [...new Set(rows.map((r) => r.symbol))];
+
+  // Prepare serializable data for TopRanking
+  const rankingRows = uniqueRows.map((r) => ({
+    id: r.id,
+    symbol: r.symbol,
+    name: r.name,
+    recommendPrice: r.recommendPrice ?? 0,
+  }));
+
+  // Prepare serializable data for StatsCards
+  const statsRows = uniqueRows.map((r) => ({
+    symbol: r.symbol,
+    recommendPrice: r.recommendPrice ?? 0,
+    sector: r.sector,
+  }));
 
   return (
     <QuotesProvider symbols={allSymbols}>
       <div className="space-y-6">
-        <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="card"><p className="text-sm text-slate-400">追蹤標的</p><p className="mt-1 text-2xl font-semibold">{uniqueRows.length}</p></div>
-          <div className="card"><p className="text-sm text-slate-400">整體命中率</p><p className="mt-1 text-2xl font-semibold text-cyan-300">{hitRate.toFixed(1)}%</p></div>
-          <div className="card"><p className="text-sm text-slate-400">平均報酬率</p><p className={`mt-1 text-2xl font-semibold ${avgReturn >= 0 ? "text-emerald-400" : "text-rose-400"}`}>{avgReturn.toFixed(2)}%</p></div>
-          <div className="card"><p className="text-sm text-slate-400">追蹤板塊</p><p className="mt-1 text-2xl font-semibold">{new Set(rows.map((r) => r.sector)).size}</p></div>
-        </section>
+        <StatsCards rows={statsRows} />
 
         <section className="grid gap-6 lg:grid-cols-2">
-          <div className="card">
-            <h2 className="mb-3 text-lg font-semibold">最佳推薦 Top 5</h2>
-            <ul className="space-y-2 text-sm">
-              {ranked.slice(0, 5).map((r) => (
-                <li key={r.id} className="flex items-center justify-between border-b border-slate-800 pb-2">
-                  <Link href={`/symbols/${r.symbol}`} className="hover:text-cyan-300">{r.symbol} · {r.name}</Link>
-                  <PriceCell symbol={r.symbol} recommendPrice={r.recommendPrice} />
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="card">
-            <h2 className="mb-3 text-lg font-semibold">最差推薦 Top 5</h2>
-            <ul className="space-y-2 text-sm">
-              {ranked.slice(-5).reverse().map((r) => (
-                <li key={r.id} className="flex items-center justify-between border-b border-slate-800 pb-2">
-                  <Link href={`/symbols/${r.symbol}`} className="hover:text-cyan-300">{r.symbol} · {r.name}</Link>
-                  <PriceCell symbol={r.symbol} recommendPrice={r.recommendPrice} />
-                </li>
-              ))}
-            </ul>
-          </div>
+          <TopRanking rows={rankingRows} title="最佳推薦 Top 5" best={true} />
+          <TopRanking rows={rankingRows} title="最差推薦 Top 5" best={false} />
         </section>
 
         <section className="card">
@@ -82,7 +64,7 @@ export default async function DashboardPage() {
                     <td className="py-2"><Link href={`/symbols/${r.symbol}`} className="text-slate-100 hover:text-cyan-300">{r.symbol} - {r.name}</Link></td>
                     <td className="py-2 text-slate-300">{r.sector}</td>
                     <td className="py-2 text-slate-300">${r.recommendPrice?.toFixed(2) ?? "--"}</td>
-                    <td className="py-2"><PriceCell symbol={r.symbol} recommendPrice={r.recommendPrice} /></td>
+                    <td className="py-2"><PriceCell symbol={r.symbol} recommendPrice={r.recommendPrice ?? 0} /></td>
                   </tr>
                 ))}
               </tbody>

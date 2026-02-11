@@ -2,7 +2,7 @@
   {
     "id": "notion-f529b9cfdf89b282",
     "symbol": "QID",
-    "name": "QID",
+    "name": "ProShares UltraShort QQQ",
     "sector": "其他",
     "recommendDate": "2024-10-20",
     "recommendPrice": 35.36,
@@ -17,7 +17,7 @@
   {
     "id": "notion-e24e2ba221c4179c",
     "symbol": "QLD",
-    "name": "QLD",
+    "name": "ProShares Ultra QQQ",
     "sector": "ETF",
     "recommendDate": "2024-10-20",
     "recommendPrice": 51.465,
@@ -32,7 +32,7 @@
   {
     "id": "notion-7c21d014060c21f9",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2024-10-20",
     "recommendPrice": 494.47,
@@ -47,7 +47,7 @@
   {
     "id": "notion-2f3e21a1c7f91628",
     "symbol": "SPXL",
-    "name": "SPXL",
+    "name": "Direxion Daily S&P500 Bull 3X Shares",
     "sector": "其他",
     "recommendDate": "2024-10-20",
     "recommendPrice": 171.76,
@@ -62,7 +62,7 @@
   {
     "id": "notion-526795cc05455c63",
     "symbol": "SPXS",
-    "name": "SPXS",
+    "name": "Direxion Daily S&P 500 Bear 3X Shares",
     "sector": "其他",
     "recommendDate": "2024-10-20",
     "recommendPrice": 63.4,
@@ -77,7 +77,7 @@
   {
     "id": "notion-131f7e06a4c98ba5",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2024-10-20",
     "recommendPrice": 584.59,
@@ -92,7 +92,7 @@
   {
     "id": "notion-de37f563577e4917",
     "symbol": "SQQQ",
-    "name": "SQQQ",
+    "name": "ProShares UltraPro Short QQQ",
     "sector": "其他",
     "recommendDate": "2024-10-20",
     "recommendPrice": 178.25,
@@ -107,7 +107,7 @@
   {
     "id": "notion-f56040e9e13fc8d1",
     "symbol": "SSO",
-    "name": "SSO",
+    "name": "ProShares Ultra S&P500",
     "sector": "其他",
     "recommendDate": "2024-10-20",
     "recommendPrice": 46.58,
@@ -122,7 +122,7 @@
   {
     "id": "notion-e503461a28c53169",
     "symbol": "TQQQ",
-    "name": "TQQQ",
+    "name": "ProShares UltraPro QQQ",
     "sector": "其他",
     "recommendDate": "2024-10-20",
     "recommendPrice": 37.32,
@@ -137,7 +137,7 @@
   {
     "id": "notion-4a2cf201bca7fc10",
     "symbol": "VTI",
-    "name": "VTI",
+    "name": "Vanguard Total Stock Market Index Fund",
     "sector": "其他",
     "recommendDate": "2024-10-20",
     "recommendPrice": 288.89,
@@ -152,7 +152,7 @@
   {
     "id": "notion-64ccaac4b9cc1705",
     "symbol": "AAPL",
-    "name": "AAPL",
+    "name": "Apple Inc.",
     "sector": "大型科技",
     "recommendDate": "2024-10-27",
     "recommendPrice": 231.41,
@@ -167,7 +167,7 @@
   {
     "id": "notion-12550686d3234d28",
     "symbol": "AMD",
-    "name": "AMD",
+    "name": "Advanced Micro Devices, Inc.",
     "sector": "AI晶片",
     "recommendDate": "2024-10-27",
     "recommendPrice": 156.23,
@@ -182,7 +182,7 @@
   {
     "id": "notion-bcb0dcbe31d98784",
     "symbol": "AMDL",
-    "name": "AMDL",
+    "name": "GraniteShares 2x Long AMD Daily ETF",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 13.55,
@@ -197,7 +197,7 @@
   {
     "id": "notion-db75a6747d0630ef",
     "symbol": "AMZN",
-    "name": "AMZN",
+    "name": "Amazon.com, Inc.",
     "sector": "大型科技",
     "recommendDate": "2024-10-27",
     "recommendPrice": 187.83,
@@ -212,7 +212,7 @@
   {
     "id": "notion-c3a4252137c9afad",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2024-10-27",
     "recommendPrice": 173.0,
@@ -227,7 +227,7 @@
   {
     "id": "notion-338b22fbd52d6464",
     "symbol": "DDM",
-    "name": "DDM",
+    "name": "ProShares Ultra Dow30",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 47.17,
@@ -242,7 +242,7 @@
   {
     "id": "notion-72499893e8ab8313",
     "symbol": "DXD",
-    "name": "DXD",
+    "name": "ProShares UltraShort Dow30",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 27.83,
@@ -257,7 +257,7 @@
   {
     "id": "notion-666aa7a470096d67",
     "symbol": "FNGD",
-    "name": "FNGD",
+    "name": "MicroSectors FANG+ Index -3X Inverse Leveraged ETN",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 194.3,
@@ -272,7 +272,7 @@
   {
     "id": "notion-a63fa3f7e1870604",
     "symbol": "FNGG",
-    "name": "FNGG",
+    "name": "Direxion Daily Select Large Caps & FANGs Bull 2X Shares",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 149.917,
@@ -287,7 +287,7 @@
   {
     "id": "notion-3bbff910543600c8",
     "symbol": "FNGU",
-    "name": "FNGU",
+    "name": "MicroSectors™ FANG+™ 3x Leveraged ETNs",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": null,
@@ -302,7 +302,7 @@
   {
     "id": "notion-621db6c98724d0a2",
     "symbol": "GOOGL",
-    "name": "GOOGL",
+    "name": "Alphabet Inc.",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 165.27,
@@ -317,7 +317,7 @@
   {
     "id": "notion-74830c482512b7a5",
     "symbol": "META",
-    "name": "META",
+    "name": "Meta Platforms, Inc.",
     "sector": "大型科技",
     "recommendDate": "2024-10-27",
     "recommendPrice": 573.25,
@@ -332,7 +332,7 @@
   {
     "id": "notion-f29e75427c791e81",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2024-10-27",
     "recommendPrice": 428.15,
@@ -347,7 +347,7 @@
   {
     "id": "notion-bda86294bc89ed8e",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2024-10-27",
     "recommendPrice": 141.54,
@@ -362,7 +362,7 @@
   {
     "id": "notion-af35710bfd51a15d",
     "symbol": "NVDL",
-    "name": "NVDL",
+    "name": "GraniteShares 2x Long NVDA Daily ETF",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 77.29,
@@ -377,7 +377,7 @@
   {
     "id": "notion-0391203fc801b5f9",
     "symbol": "QID",
-    "name": "QID",
+    "name": "ProShares UltraShort QQQ",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 35.31,
@@ -392,7 +392,7 @@
   {
     "id": "notion-9d8ce3c2e54637f5",
     "symbol": "QLD",
-    "name": "QLD",
+    "name": "ProShares Ultra QQQ",
     "sector": "ETF",
     "recommendDate": "2024-10-27",
     "recommendPrice": 51.55,
@@ -407,7 +407,7 @@
   {
     "id": "notion-ec226199e97bbdf2",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 495.32,
@@ -422,7 +422,7 @@
   {
     "id": "notion-4890b75fc45dc493",
     "symbol": "ROM",
-    "name": "ROM",
+    "name": "ProShares Ultra Technology",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 69.51,
@@ -437,7 +437,7 @@
   {
     "id": "notion-7ab852ca7ebb0c37",
     "symbol": "SDOW",
-    "name": "SDOW",
+    "name": "ProShares UltraPro Short Dow30",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 53.36,
@@ -452,7 +452,7 @@
   {
     "id": "notion-9510c74882d6a5c9",
     "symbol": "SOXL",
-    "name": "SOXL",
+    "name": "Direxion Daily Semiconductor Bull 3X Shares",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 35.28,
@@ -467,7 +467,7 @@
   {
     "id": "notion-e53c55713977f906",
     "symbol": "SOXS",
-    "name": "SOXS",
+    "name": "Direxion Daily Semiconductor Bear 3X Shares",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 20.18,
@@ -482,7 +482,7 @@
   {
     "id": "notion-74b76aba06f51f31",
     "symbol": "SPXL",
-    "name": "SPXL",
+    "name": "Direxion Daily S&P500 Bull 3X Shares",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 166.54,
@@ -497,7 +497,7 @@
   {
     "id": "notion-18aa1d116465cfa5",
     "symbol": "SPXS",
-    "name": "SPXS",
+    "name": "Direxion Daily S&P 500 Bear 3X Shares",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 65.4,
@@ -512,7 +512,7 @@
   {
     "id": "notion-45beb567c866544f",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 579.04,
@@ -527,7 +527,7 @@
   {
     "id": "notion-339fbc80ca77a2c4",
     "symbol": "SQQQ",
-    "name": "SQQQ",
+    "name": "ProShares UltraPro Short QQQ",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 177.75,
@@ -542,7 +542,7 @@
   {
     "id": "notion-f8aefbdab45bb1e9",
     "symbol": "SSO",
-    "name": "SSO",
+    "name": "ProShares Ultra S&P500",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 45.655,
@@ -557,7 +557,7 @@
   {
     "id": "notion-c981e05586aab809",
     "symbol": "TNA",
-    "name": "TNA",
+    "name": "Direxion Daily Small Cap Bull 3X Shares",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 42.56,
@@ -572,7 +572,7 @@
   {
     "id": "notion-f6a10090923d79df",
     "symbol": "TQQQ",
-    "name": "TQQQ",
+    "name": "ProShares UltraPro QQQ",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 37.37,
@@ -587,7 +587,7 @@
   {
     "id": "notion-0fe7dff2d6dd2179",
     "symbol": "TSLA",
-    "name": "TSLA",
+    "name": "Tesla, Inc.",
     "sector": "電動車",
     "recommendDate": "2024-10-27",
     "recommendPrice": 269.19,
@@ -602,7 +602,7 @@
   {
     "id": "notion-93070bd349a39b13",
     "symbol": "TSLL",
-    "name": "TSLL",
+    "name": "Direxion Daily TSLA Bull 2X Shares",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 13.8,
@@ -617,7 +617,7 @@
   {
     "id": "notion-ed87737c95f7c762",
     "symbol": "TWM",
-    "name": "TWM",
+    "name": "ProShares UltraShort Russell2000",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 46.75,
@@ -632,7 +632,7 @@
   {
     "id": "notion-e3ffdcc551eaa349",
     "symbol": "TZA",
-    "name": "TZA",
+    "name": "Direxion Daily Small Cap Bear 3X Shares",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 13.91,
@@ -647,7 +647,7 @@
   {
     "id": "notion-f52f3d31c98697d7",
     "symbol": "UDOW",
-    "name": "UDOW",
+    "name": "ProShares UltraPro Dow30",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 46.93,
@@ -662,7 +662,7 @@
   {
     "id": "notion-79a5b8f3b0748240",
     "symbol": "UWM",
-    "name": "UWM",
+    "name": "ProShares Ultra Russell2000",
     "sector": "其他",
     "recommendDate": "2024-10-27",
     "recommendPrice": 41.88,
@@ -677,7 +677,7 @@
   {
     "id": "notion-561f9d48a3fc6cd4",
     "symbol": "AAPL",
-    "name": "AAPL",
+    "name": "Apple Inc.",
     "sector": "大型科技",
     "recommendDate": "2024-12-15",
     "recommendPrice": 248.13,
@@ -707,7 +707,7 @@
   {
     "id": "notion-0ce2effe455ccc4a",
     "symbol": "INTC",
-    "name": "INTC",
+    "name": "Intel Corporation",
     "sector": "其他",
     "recommendDate": "2024-12-15",
     "recommendPrice": 20.34,
@@ -722,7 +722,7 @@
   {
     "id": "notion-0b9554a67502def4",
     "symbol": "PTON",
-    "name": "PTON",
+    "name": "Peloton Interactive, Inc.",
     "sector": "其他",
     "recommendDate": "2024-12-15",
     "recommendPrice": 9.58,
@@ -737,7 +737,7 @@
   {
     "id": "notion-88e92789eb118bf2",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2024-12-15",
     "recommendPrice": 530.53,
@@ -752,7 +752,7 @@
   {
     "id": "notion-eff5a0b5ef242b75",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2024-12-15",
     "recommendPrice": 604.21,
@@ -767,7 +767,7 @@
   {
     "id": "notion-2d802a96a9916d95",
     "symbol": "TDOC",
-    "name": "TDOC",
+    "name": "Teladoc Health, Inc.",
     "sector": "其他",
     "recommendDate": "2024-12-15",
     "recommendPrice": 10.42,
@@ -782,7 +782,7 @@
   {
     "id": "notion-af38bc608df7fa02",
     "symbol": "TSLA",
-    "name": "TSLA",
+    "name": "Tesla, Inc.",
     "sector": "電動車",
     "recommendDate": "2024-12-15",
     "recommendPrice": 436.23,
@@ -797,7 +797,7 @@
   {
     "id": "notion-ca5539c3f93575dd",
     "symbol": "YCL",
-    "name": "YCL",
+    "name": "ProShares Ultra Yen",
     "sector": "其他",
     "recommendDate": "2024-12-15",
     "recommendPrice": 21.3,
@@ -812,7 +812,7 @@
   {
     "id": "notion-f21704c2c1c7e64e",
     "symbol": "AAPL",
-    "name": "AAPL",
+    "name": "Apple Inc.",
     "sector": "大型科技",
     "recommendDate": "2024-12-26",
     "recommendPrice": 259.02,
@@ -827,7 +827,7 @@
   {
     "id": "notion-3fb3c1900c6dbc19",
     "symbol": "AMZN",
-    "name": "AMZN",
+    "name": "Amazon.com, Inc.",
     "sector": "大型科技",
     "recommendDate": "2024-12-26",
     "recommendPrice": 227.05,
@@ -842,7 +842,7 @@
   {
     "id": "notion-9ab9b0dda074d9df",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2024-12-26",
     "recommendPrice": 245.36,
@@ -857,7 +857,7 @@
   {
     "id": "notion-1dbc320a44f940d3",
     "symbol": "GOOG",
-    "name": "GOOG",
+    "name": "Alphabet Inc.",
     "sector": "大型科技",
     "recommendDate": "2024-12-26",
     "recommendPrice": 197.1,
@@ -872,7 +872,7 @@
   {
     "id": "notion-510323f26c9fd89d",
     "symbol": "MAGS",
-    "name": "MAGS",
+    "name": "Roundhill Magnificent Seven ETF",
     "sector": "其他",
     "recommendDate": "2024-12-26",
     "recommendPrice": 57.67,
@@ -887,7 +887,7 @@
   {
     "id": "notion-ca125c303cacd1c6",
     "symbol": "MRVL",
-    "name": "MRVL",
+    "name": "Marvell Technology, Inc.",
     "sector": "AI晶片",
     "recommendDate": "2024-12-26",
     "recommendPrice": 115.71,
@@ -902,7 +902,7 @@
   {
     "id": "notion-69a7506bd82e0264",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2024-12-26",
     "recommendPrice": 139.93,
@@ -917,7 +917,7 @@
   {
     "id": "notion-a79aa676777f7e14",
     "symbol": "QLD",
-    "name": "QLD",
+    "name": "ProShares Ultra QQQ",
     "sector": "ETF",
     "recommendDate": "2024-12-26",
     "recommendPrice": 58.165,
@@ -932,7 +932,7 @@
   {
     "id": "notion-6bffdc3d63348e5b",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2024-12-26",
     "recommendPrice": 529.6,
@@ -947,7 +947,7 @@
   {
     "id": "notion-d3039353d42658d8",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2024-12-26",
     "recommendPrice": 601.34,
@@ -962,7 +962,7 @@
   {
     "id": "notion-6719480211427501",
     "symbol": "SSO",
-    "name": "SSO",
+    "name": "ProShares Ultra S&P500",
     "sector": "其他",
     "recommendDate": "2024-12-26",
     "recommendPrice": 48.76,
@@ -977,7 +977,7 @@
   {
     "id": "notion-69ba779da5a6c19e",
     "symbol": "TQQQ",
-    "name": "TQQQ",
+    "name": "ProShares UltraPro QQQ",
     "sector": "其他",
     "recommendDate": "2024-12-26",
     "recommendPrice": 44.125,
@@ -992,7 +992,7 @@
   {
     "id": "notion-9c727015b7ae4c6a",
     "symbol": "TSLA",
-    "name": "TSLA",
+    "name": "Tesla, Inc.",
     "sector": "電動車",
     "recommendDate": "2024-12-26",
     "recommendPrice": 454.13,
@@ -1007,7 +1007,7 @@
   {
     "id": "notion-f3ec93ebe30468b9",
     "symbol": "AAPL",
-    "name": "AAPL",
+    "name": "Apple Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-01-04",
     "recommendPrice": 243.36,
@@ -1022,7 +1022,7 @@
   {
     "id": "notion-54e53c80654308bb",
     "symbol": "AMZN",
-    "name": "AMZN",
+    "name": "Amazon.com, Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-01-04",
     "recommendPrice": 224.19,
@@ -1037,7 +1037,7 @@
   {
     "id": "notion-6765436ac976e326",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2025-01-04",
     "recommendPrice": 232.55,
@@ -1052,7 +1052,7 @@
   {
     "id": "notion-dc1af8166dbd8c5d",
     "symbol": "GOOGL",
-    "name": "GOOGL",
+    "name": "Alphabet Inc.",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 191.79,
@@ -1067,7 +1067,7 @@
   {
     "id": "notion-dc64e20f968cfa52",
     "symbol": "IWM",
-    "name": "IWM",
+    "name": "iShares Russell 2000 ETF",
     "sector": "ETF",
     "recommendDate": "2025-01-04",
     "recommendPrice": 224.43,
@@ -1082,7 +1082,7 @@
   {
     "id": "notion-caeb58b08a40bd35",
     "symbol": "MAGS",
-    "name": "MAGS",
+    "name": "Roundhill Magnificent Seven ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 55.54,
@@ -1097,7 +1097,7 @@
   {
     "id": "notion-bcc069bd4fab58fa",
     "symbol": "MAGX",
-    "name": "MAGX",
+    "name": "Roundhill Daily 2X Long Magnificent Seven ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 47.77,
@@ -1112,7 +1112,7 @@
   {
     "id": "notion-30e6edb216b38bad",
     "symbol": "META",
-    "name": "META",
+    "name": "Meta Platforms, Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-01-04",
     "recommendPrice": 604.63,
@@ -1127,7 +1127,7 @@
   {
     "id": "notion-460ae131b6d68718",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2025-01-04",
     "recommendPrice": 423.35,
@@ -1142,7 +1142,7 @@
   {
     "id": "notion-1280213012e8d023",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2025-01-04",
     "recommendPrice": 144.47,
@@ -1157,7 +1157,7 @@
   {
     "id": "notion-b507001547b26bb1",
     "symbol": "QLD",
-    "name": "QLD",
+    "name": "ProShares Ultra QQQ",
     "sector": "ETF",
     "recommendDate": "2025-01-04",
     "recommendPrice": 55.64,
@@ -1172,7 +1172,7 @@
   {
     "id": "notion-ef294ec238b55378",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 518.58,
@@ -1187,7 +1187,7 @@
   {
     "id": "notion-5c0d073e007f6a4f",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 591.95,
@@ -1202,7 +1202,7 @@
   {
     "id": "notion-ffb659f4032d3999",
     "symbol": "SSO",
-    "name": "SSO",
+    "name": "ProShares Ultra S&P500",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 47.14,
@@ -1217,7 +1217,7 @@
   {
     "id": "notion-552e31faa3e5cbe9",
     "symbol": "TQQQ",
-    "name": "TQQQ",
+    "name": "ProShares UltraPro QQQ",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 41.2,
@@ -1232,7 +1232,7 @@
   {
     "id": "notion-71d3b4bf43c5c7c3",
     "symbol": "TSLA",
-    "name": "TSLA",
+    "name": "Tesla, Inc.",
     "sector": "電動車",
     "recommendDate": "2025-01-04",
     "recommendPrice": 410.44,
@@ -1247,7 +1247,7 @@
   {
     "id": "notion-af3dfc4668f56d52",
     "symbol": "XLB",
-    "name": "XLB",
+    "name": "State Street Materials Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 41.595,
@@ -1262,7 +1262,7 @@
   {
     "id": "notion-be54a21620e324a4",
     "symbol": "XLC",
-    "name": "XLC",
+    "name": "State Street Communication Services Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 97.88,
@@ -1277,7 +1277,7 @@
   {
     "id": "notion-aa4f245c2bd6206e",
     "symbol": "XLE",
-    "name": "XLE",
+    "name": "State Street Energy Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 43.735,
@@ -1292,7 +1292,7 @@
   {
     "id": "notion-50d2b0f54b7acdd4",
     "symbol": "XLF",
-    "name": "XLF",
+    "name": "State Street Financial Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 48.59,
@@ -1307,7 +1307,7 @@
   {
     "id": "notion-6c18d8a683f2d4a6",
     "symbol": "XLI",
-    "name": "XLI",
+    "name": "State Street Industrial Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 132.72,
@@ -1322,7 +1322,7 @@
   {
     "id": "notion-2655bb065484bc47",
     "symbol": "XLK",
-    "name": "XLK",
+    "name": "State Street Technology Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 117.875,
@@ -1337,7 +1337,7 @@
   {
     "id": "notion-304c03a07798acc9",
     "symbol": "XLP",
-    "name": "XLP",
+    "name": "State Street Consumer Staples Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 78.33,
@@ -1352,7 +1352,7 @@
   {
     "id": "notion-24ecd4dc43faf825",
     "symbol": "XLRE",
-    "name": "XLRE",
+    "name": "State Street Real Estate Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 40.84,
@@ -1367,7 +1367,7 @@
   {
     "id": "notion-faa530a32cb53446",
     "symbol": "XLU",
-    "name": "XLU",
+    "name": "State Street Utilities Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 38.54,
@@ -1382,7 +1382,7 @@
   {
     "id": "notion-20b9a429f0ab141a",
     "symbol": "XLV",
-    "name": "XLV",
+    "name": "State Street Health Care Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-01-04",
     "recommendPrice": 138.96,
@@ -1397,7 +1397,7 @@
   {
     "id": "notion-9b32db80c362c103",
     "symbol": "QID",
-    "name": "QID",
+    "name": "ProShares UltraShort QQQ",
     "sector": "其他",
     "recommendDate": "2025-02-02",
     "recommendPrice": 31.33,
@@ -1412,7 +1412,7 @@
   {
     "id": "notion-100c8cf33a38027d",
     "symbol": "QLD",
-    "name": "QLD",
+    "name": "ProShares Ultra QQQ",
     "sector": "ETF",
     "recommendDate": "2025-02-02",
     "recommendPrice": 56.005,
@@ -1427,7 +1427,7 @@
   {
     "id": "notion-5b0a2513df03595d",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2025-02-02",
     "recommendPrice": 522.29,
@@ -1442,7 +1442,7 @@
   {
     "id": "notion-c5b22ecbc04ba2bf",
     "symbol": "SPXL",
-    "name": "SPXL",
+    "name": "Direxion Daily S&P500 Bull 3X Shares",
     "sector": "其他",
     "recommendDate": "2025-02-02",
     "recommendPrice": 179.98,
@@ -1457,7 +1457,7 @@
   {
     "id": "notion-47b58ff2467b0e88",
     "symbol": "SPXS",
-    "name": "SPXS",
+    "name": "Direxion Daily S&P 500 Bear 3X Shares",
     "sector": "其他",
     "recommendDate": "2025-02-02",
     "recommendPrice": 58.3,
@@ -1472,7 +1472,7 @@
   {
     "id": "notion-54674d52c706c6bd",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2025-02-02",
     "recommendPrice": 601.82,
@@ -1487,7 +1487,7 @@
   {
     "id": "notion-5906ffd0b6f15e77",
     "symbol": "SQQQ",
-    "name": "SQQQ",
+    "name": "ProShares UltraPro Short QQQ",
     "sector": "其他",
     "recommendDate": "2025-02-02",
     "recommendPrice": 145.15,
@@ -1502,7 +1502,7 @@
   {
     "id": "notion-f86db5cae7026a3c",
     "symbol": "SSO",
-    "name": "SSO",
+    "name": "ProShares Ultra S&P500",
     "sector": "其他",
     "recommendDate": "2025-02-02",
     "recommendPrice": 48.445,
@@ -1517,7 +1517,7 @@
   {
     "id": "notion-cfcd04c0575f9297",
     "symbol": "TQQQ",
-    "name": "TQQQ",
+    "name": "ProShares UltraPro QQQ",
     "sector": "其他",
     "recommendDate": "2025-02-02",
     "recommendPrice": 41.36,
@@ -1532,7 +1532,7 @@
   {
     "id": "notion-701dd7c11b08215e",
     "symbol": "VOO",
-    "name": "VOO",
+    "name": "Vanguard S&P 500 ETF",
     "sector": "其他",
     "recommendDate": "2025-02-02",
     "recommendPrice": 553.33,
@@ -1547,7 +1547,7 @@
   {
     "id": "notion-5090291e216452b1",
     "symbol": "VTI",
-    "name": "VTI",
+    "name": "Vanguard Total Stock Market Index Fund",
     "sector": "其他",
     "recommendDate": "2025-02-02",
     "recommendPrice": 298.6,
@@ -1562,7 +1562,7 @@
   {
     "id": "notion-596e763f51426113",
     "symbol": "BND",
-    "name": "BND",
+    "name": "Vanguard Total Bond Market Index Fund",
     "sector": "其他",
     "recommendDate": "2025-02-09",
     "recommendPrice": 72.34,
@@ -1577,7 +1577,7 @@
   {
     "id": "notion-e823cf476ccb621f",
     "symbol": "QLD",
-    "name": "QLD",
+    "name": "ProShares Ultra QQQ",
     "sector": "ETF",
     "recommendDate": "2025-02-09",
     "recommendPrice": 56.075,
@@ -1592,7 +1592,7 @@
   {
     "id": "notion-44edf0fcd8321297",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2025-02-09",
     "recommendPrice": 522.92,
@@ -1607,7 +1607,7 @@
   {
     "id": "notion-530a55568d5c8e14",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2025-02-09",
     "recommendPrice": 600.77,
@@ -1622,7 +1622,7 @@
   {
     "id": "notion-d91448349285541f",
     "symbol": "SSO",
-    "name": "SSO",
+    "name": "ProShares Ultra S&P500",
     "sector": "其他",
     "recommendDate": "2025-02-09",
     "recommendPrice": 48.22,
@@ -1637,7 +1637,7 @@
   {
     "id": "notion-8a4f9f46f13e4288",
     "symbol": "TLT",
-    "name": "TLT",
+    "name": "iShares 20+ Year Treasury Bond ETF",
     "sector": "ETF",
     "recommendDate": "2025-02-09",
     "recommendPrice": 89.27,
@@ -1652,7 +1652,7 @@
   {
     "id": "notion-cc238f75ddcff382",
     "symbol": "TQQQ",
-    "name": "TQQQ",
+    "name": "ProShares UltraPro QQQ",
     "sector": "其他",
     "recommendDate": "2025-02-09",
     "recommendPrice": 41.365,
@@ -1667,7 +1667,7 @@
   {
     "id": "notion-eea6e1d3bf1e0486",
     "symbol": "VGT",
-    "name": "VGT",
+    "name": "Vanguard Information Technology Index Fund",
     "sector": "其他",
     "recommendDate": "2025-02-09",
     "recommendPrice": 621.05,
@@ -1682,7 +1682,7 @@
   {
     "id": "notion-e5503e024d86b0fb",
     "symbol": "XLK",
-    "name": "XLK",
+    "name": "State Street Technology Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-02-09",
     "recommendPrice": 116.41,
@@ -1697,7 +1697,7 @@
   {
     "id": "notion-de8e4b4fef99576a",
     "symbol": "AEIS",
-    "name": "AEIS",
+    "name": "Advanced Energy Industries, Inc.",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 105.26,
@@ -1712,7 +1712,7 @@
   {
     "id": "notion-1a14e88a4af78481",
     "symbol": "ATRO",
-    "name": "ATRO",
+    "name": "Astronics Corporation",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 25.35,
@@ -1727,7 +1727,7 @@
   {
     "id": "notion-fb8195bb785d9f03",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2025-03-23",
     "recommendPrice": 191.66,
@@ -1742,7 +1742,7 @@
   {
     "id": "notion-34ebb2c5a64df817",
     "symbol": "AXTI",
-    "name": "AXTI",
+    "name": "AXT, Inc.",
     "sector": "半導體",
     "recommendDate": "2025-03-23",
     "recommendPrice": 1.68,
@@ -1757,7 +1757,7 @@
   {
     "id": "notion-ae9de6efa28b38ce",
     "symbol": "BIL",
-    "name": "BIL",
+    "name": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 91.66,
@@ -1772,7 +1772,7 @@
   {
     "id": "notion-529050d25735990a",
     "symbol": "BND",
-    "name": "BND",
+    "name": "Vanguard Total Bond Market Index Fund",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 73.32,
@@ -1787,7 +1787,7 @@
   {
     "id": "notion-d7abe66bcd8a5572",
     "symbol": "BNDW",
-    "name": "BNDW",
+    "name": "Vanguard Total World Bond ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 68.64,
@@ -1802,7 +1802,7 @@
   {
     "id": "notion-3ccb5ff855edb502",
     "symbol": "BOTZ",
-    "name": "BOTZ",
+    "name": "Global X Robotics & Artificial Intelligence ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 30.34,
@@ -1817,7 +1817,7 @@
   {
     "id": "notion-276daa81edd4e7af",
     "symbol": "CLOU",
-    "name": "CLOU",
+    "name": "Global X Cloud Computing ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 22.02,
@@ -1832,7 +1832,7 @@
   {
     "id": "notion-62e647ae9edc7921",
     "symbol": "COHR",
-    "name": "COHR",
+    "name": "Coherent, Inc.",
     "sector": "光通訊",
     "recommendDate": "2025-03-23",
     "recommendPrice": 68.24,
@@ -1847,7 +1847,7 @@
   {
     "id": "notion-57dc3cc21fcf6aa7",
     "symbol": "FLEX",
-    "name": "FLEX",
+    "name": "Flex Ltd.",
     "sector": "AI基礎建設",
     "recommendDate": "2025-03-23",
     "recommendPrice": 36.4,
@@ -1862,7 +1862,7 @@
   {
     "id": "notion-5054da6197e14f53",
     "symbol": "FORM",
-    "name": "FORM",
+    "name": "FormFactor, Inc.",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 31.11,
@@ -1877,7 +1877,7 @@
   {
     "id": "notion-a9c83c6918393838",
     "symbol": "FTAI",
-    "name": "FTAI",
+    "name": "FTAI Aviation Ltd.",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 107.23,
@@ -1892,7 +1892,7 @@
   {
     "id": "notion-5e7593798b2183f3",
     "symbol": "GLW",
-    "name": "GLW",
+    "name": "Corning Incorporated",
     "sector": "光通訊",
     "recommendDate": "2025-03-23",
     "recommendPrice": 48.53,
@@ -1907,7 +1907,7 @@
   {
     "id": "notion-1632a94afbd5b6f9",
     "symbol": "GSAT",
-    "name": "GSAT",
+    "name": "Globalstar, Inc.",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 21.97,
@@ -1922,7 +1922,7 @@
   {
     "id": "notion-4d8e132060b48d01",
     "symbol": "IWD",
-    "name": "IWD",
+    "name": "iShares Russell 1000 Value ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 187.15,
@@ -1937,7 +1937,7 @@
   {
     "id": "notion-5f404f5a2e7376ea",
     "symbol": "IWF",
-    "name": "IWF",
+    "name": "iShares Russell 1000 Growth ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 369.9,
@@ -1952,7 +1952,7 @@
   {
     "id": "notion-d01939ca79927c5c",
     "symbol": "IWM",
-    "name": "IWM",
+    "name": "iShares Russell 2000 ETF",
     "sector": "ETF",
     "recommendDate": "2025-03-23",
     "recommendPrice": 203.79,
@@ -1967,7 +1967,7 @@
   {
     "id": "notion-13337615416cd9e4",
     "symbol": "JBL",
-    "name": "JBL",
+    "name": "Jabil Inc.",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 145.22,
@@ -1982,7 +1982,7 @@
   {
     "id": "notion-2a835cbe2cc17633",
     "symbol": "JNJ",
-    "name": "JNJ",
+    "name": "Johnson & Johnson",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 163.63,
@@ -1997,7 +1997,7 @@
   {
     "id": "notion-a2abedf342306984",
     "symbol": "LITE",
-    "name": "LITE",
+    "name": "Lumentum Holdings Inc.",
     "sector": "光通訊",
     "recommendDate": "2025-03-23",
     "recommendPrice": 66.61,
@@ -2012,7 +2012,7 @@
   {
     "id": "notion-c1ff4c5a3190f8cf",
     "symbol": "MRVL",
-    "name": "MRVL",
+    "name": "Marvell Technology, Inc.",
     "sector": "AI晶片",
     "recommendDate": "2025-03-23",
     "recommendPrice": 70.39,
@@ -2027,7 +2027,7 @@
   {
     "id": "notion-0d69eac190e6e822",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2025-03-23",
     "recommendPrice": 391.26,
@@ -2042,7 +2042,7 @@
   {
     "id": "notion-64e5c6e87c528fd0",
     "symbol": "OIH",
-    "name": "OIH",
+    "name": "VanEck Oil Services ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 259.0,
@@ -2057,7 +2057,7 @@
   {
     "id": "notion-d3d91a383484ffd2",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 480.84,
@@ -2072,7 +2072,7 @@
   {
     "id": "notion-1c9a37a912399480",
     "symbol": "SANM",
-    "name": "SANM",
+    "name": "Sanmina Corporation",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 78.31,
@@ -2087,7 +2087,7 @@
   {
     "id": "notion-170f3ec3a55cd290",
     "symbol": "SGOV",
-    "name": "SGOV",
+    "name": "iShares 0-3 Month Treasury Bond ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 100.58,
@@ -2102,7 +2102,7 @@
   {
     "id": "notion-a899159dcb40b65b",
     "symbol": "SMH",
-    "name": "SMH",
+    "name": "VanEck Semiconductor ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 224.77,
@@ -2117,7 +2117,7 @@
   {
     "id": "notion-3776bbff0deb98f0",
     "symbol": "SOXL",
-    "name": "SOXL",
+    "name": "Direxion Daily Semiconductor Bull 3X Shares",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 19.28,
@@ -2132,7 +2132,7 @@
   {
     "id": "notion-96310924ae7eb736",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 563.98,
@@ -2147,7 +2147,7 @@
   {
     "id": "notion-a8c25358900abb59",
     "symbol": "TLT",
-    "name": "TLT",
+    "name": "iShares 20+ Year Treasury Bond ETF",
     "sector": "ETF",
     "recommendDate": "2025-03-23",
     "recommendPrice": 90.7,
@@ -2162,7 +2162,7 @@
   {
     "id": "notion-0f19bbff621b0f61",
     "symbol": "TQQQ",
-    "name": "TQQQ",
+    "name": "ProShares UltraPro QQQ",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 31.09,
@@ -2177,7 +2177,7 @@
   {
     "id": "notion-dfcb47d146995851",
     "symbol": "VIAV",
-    "name": "VIAV",
+    "name": "Viavi Solutions Inc.",
     "sector": "光通訊",
     "recommendDate": "2025-03-23",
     "recommendPrice": 11.62,
@@ -2192,7 +2192,7 @@
   {
     "id": "notion-5d75aeaa3c4f4310",
     "symbol": "VOO",
-    "name": "VOO",
+    "name": "Vanguard S&P 500 ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 520.26,
@@ -2207,7 +2207,7 @@
   {
     "id": "notion-14ba70697efd6cfc",
     "symbol": "VSAT",
-    "name": "VSAT",
+    "name": "Viasat, Inc.",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 9.78,
@@ -2222,7 +2222,7 @@
   {
     "id": "notion-ba0d5c1a7413d15e",
     "symbol": "VT",
-    "name": "VT",
+    "name": "Vanguard Total World Stock Index Fund",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 117.6,
@@ -2237,7 +2237,7 @@
   {
     "id": "notion-f3e6942d907f2e86",
     "symbol": "VTI",
-    "name": "VTI",
+    "name": "Vanguard Total Stock Market Index Fund",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 278.85,
@@ -2252,7 +2252,7 @@
   {
     "id": "notion-93ede075682073d0",
     "symbol": "VYM",
-    "name": "VYM",
+    "name": "Vanguard High Dividend Yield Index Fund",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 128.4,
@@ -2267,7 +2267,7 @@
   {
     "id": "notion-b9ed133c5daeab3e",
     "symbol": "XLB",
-    "name": "XLB",
+    "name": "State Street Materials Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 42.895,
@@ -2282,7 +2282,7 @@
   {
     "id": "notion-b1c19b148ae90351",
     "symbol": "XLC",
-    "name": "XLC",
+    "name": "State Street Communication Services Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 97.6,
@@ -2297,7 +2297,7 @@
   {
     "id": "notion-cebb3a4b08cb407c",
     "symbol": "XLE",
-    "name": "XLE",
+    "name": "State Street Energy Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 46.26,
@@ -2312,7 +2312,7 @@
   {
     "id": "notion-f161103523b9ca5c",
     "symbol": "XLF",
-    "name": "XLF",
+    "name": "State Street Financial Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 49.46,
@@ -2327,7 +2327,7 @@
   {
     "id": "notion-6e06dbb29069fbbc",
     "symbol": "XLI",
-    "name": "XLI",
+    "name": "State Street Industrial Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 132.25,
@@ -2342,7 +2342,7 @@
   {
     "id": "notion-265384211ccf4ae7",
     "symbol": "XLK",
-    "name": "XLK",
+    "name": "State Street Technology Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 106.98,
@@ -2357,7 +2357,7 @@
   {
     "id": "notion-713d289480ff6e7d",
     "symbol": "XLP",
-    "name": "XLP",
+    "name": "State Street Consumer Staples Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 79.33,
@@ -2372,7 +2372,7 @@
   {
     "id": "notion-538af54ccab6dd0f",
     "symbol": "XLRE",
-    "name": "XLRE",
+    "name": "State Street Real Estate Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 41.51,
@@ -2387,7 +2387,7 @@
   {
     "id": "notion-179865b46125c394",
     "symbol": "XLU",
-    "name": "XLU",
+    "name": "State Street Utilities Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 39.375,
@@ -2402,7 +2402,7 @@
   {
     "id": "notion-4b20554b7096807b",
     "symbol": "XLV",
-    "name": "XLV",
+    "name": "State Street Health Care Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-03-23",
     "recommendPrice": 146.6,
@@ -2417,7 +2417,7 @@
   {
     "id": "notion-11588734468b9a45",
     "symbol": "AAPL",
-    "name": "AAPL",
+    "name": "Apple Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-03-30",
     "recommendPrice": 217.9,
@@ -2432,7 +2432,7 @@
   {
     "id": "notion-74b35d849adfecb6",
     "symbol": "ABT",
-    "name": "ABT",
+    "name": "Abbott Laboratories",
     "sector": "其他",
     "recommendDate": "2025-03-30",
     "recommendPrice": 130.82,
@@ -2447,7 +2447,7 @@
   {
     "id": "notion-7387741c07fd55f3",
     "symbol": "AMZN",
-    "name": "AMZN",
+    "name": "Amazon.com, Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-03-30",
     "recommendPrice": 192.72,
@@ -2462,7 +2462,7 @@
   {
     "id": "notion-0bc93d295cb7187f",
     "symbol": "C",
-    "name": "C",
+    "name": "Citigroup Inc.",
     "sector": "其他",
     "recommendDate": "2025-03-30",
     "recommendPrice": 70.33,
@@ -2477,7 +2477,7 @@
   {
     "id": "notion-568a29a5dcbe6111",
     "symbol": "GOOGL",
-    "name": "GOOGL",
+    "name": "Alphabet Inc.",
     "sector": "其他",
     "recommendDate": "2025-03-30",
     "recommendPrice": 154.33,
@@ -2492,7 +2492,7 @@
   {
     "id": "notion-bc34ab30e60b4cdd",
     "symbol": "JNJ",
-    "name": "JNJ",
+    "name": "Johnson & Johnson",
     "sector": "其他",
     "recommendDate": "2025-03-30",
     "recommendPrice": 163.71,
@@ -2507,7 +2507,7 @@
   {
     "id": "notion-9b4782012d104818",
     "symbol": "JPM",
-    "name": "JPM",
+    "name": "JPMorgan Chase & Co.",
     "sector": "金融",
     "recommendDate": "2025-03-30",
     "recommendPrice": 242.85,
@@ -2522,7 +2522,7 @@
   {
     "id": "notion-e04d5feeb2464440",
     "symbol": "META",
-    "name": "META",
+    "name": "Meta Platforms, Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-03-30",
     "recommendPrice": 576.74,
@@ -2537,7 +2537,7 @@
   {
     "id": "notion-955bc6564cbcd31f",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2025-03-30",
     "recommendPrice": 378.8,
@@ -2552,7 +2552,7 @@
   {
     "id": "notion-e7f5d465fa49ac76",
     "symbol": "WFC",
-    "name": "WFC",
+    "name": "Wells Fargo & Company",
     "sector": "其他",
     "recommendDate": "2025-03-30",
     "recommendPrice": 70.69,
@@ -2567,7 +2567,7 @@
   {
     "id": "notion-4e94047a8b716942",
     "symbol": "AAPL",
-    "name": "AAPL",
+    "name": "Apple Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-04-20",
     "recommendPrice": 196.98,
@@ -2582,7 +2582,7 @@
   {
     "id": "notion-e7a372d5505ffcba",
     "symbol": "ABC",
-    "name": "ABC",
+    "name": "AmerisourceBergen Corporation",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": null,
@@ -2597,7 +2597,7 @@
   {
     "id": "notion-e59183d249ef62c0",
     "symbol": "AGG",
-    "name": "AGG",
+    "name": "iShares Core U.S. Aggregate Bond ETF",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 97.87,
@@ -2612,7 +2612,7 @@
   {
     "id": "notion-47871877db3e008e",
     "symbol": "AMZN",
-    "name": "AMZN",
+    "name": "Amazon.com, Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-04-20",
     "recommendPrice": 172.61,
@@ -2627,7 +2627,7 @@
   {
     "id": "notion-78d174359cf6c9b3",
     "symbol": "BAC",
-    "name": "BAC",
+    "name": "Bank of America Corporation",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 37.41,
@@ -2657,7 +2657,7 @@
   {
     "id": "notion-51343a11d7f5e8e9",
     "symbol": "CAH",
-    "name": "CAH",
+    "name": "Cardinal Health, Inc.",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 134.71,
@@ -2672,7 +2672,7 @@
   {
     "id": "notion-377d4fa1a17e3a45",
     "symbol": "CI",
-    "name": "CI",
+    "name": "Cigna Corporation",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 330.13,
@@ -2687,7 +2687,7 @@
   {
     "id": "notion-2b87a18edf33f47f",
     "symbol": "COST",
-    "name": "COST",
+    "name": "Costco Wholesale Corporation",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 994.5,
@@ -2702,7 +2702,7 @@
   {
     "id": "notion-87bd7be6d39313f4",
     "symbol": "CVS",
-    "name": "CVS",
+    "name": "CVS Health Corporation",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 67.29,
@@ -2717,7 +2717,7 @@
   {
     "id": "notion-57f2dbd10fcb6794",
     "symbol": "CVX",
-    "name": "CVX",
+    "name": "Chevron Corporation",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 137.87,
@@ -2732,7 +2732,7 @@
   {
     "id": "notion-7cff8230a20145d3",
     "symbol": "ELV",
-    "name": "ELV",
+    "name": "Elevance Health Inc.",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 424.53,
@@ -2747,7 +2747,7 @@
   {
     "id": "notion-4356e070e64fae2f",
     "symbol": "F",
-    "name": "F",
+    "name": "Ford Motor Company",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 9.63,
@@ -2762,7 +2762,7 @@
   {
     "id": "notion-c499e287be328dfa",
     "symbol": "GM",
-    "name": "GM",
+    "name": "General Motors Company",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 44.57,
@@ -2777,7 +2777,7 @@
   {
     "id": "notion-4b067538a991dd09",
     "symbol": "GOOGL",
-    "name": "GOOGL",
+    "name": "Alphabet Inc.",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 151.16,
@@ -2792,7 +2792,7 @@
   {
     "id": "notion-e06aeafa7dc3b00e",
     "symbol": "JPM",
-    "name": "JPM",
+    "name": "JPMorgan Chase & Co.",
     "sector": "金融",
     "recommendDate": "2025-04-20",
     "recommendPrice": 231.96,
@@ -2807,7 +2807,7 @@
   {
     "id": "notion-5d64139cd0d8ba76",
     "symbol": "LQD",
-    "name": "LQD",
+    "name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 106.75,
@@ -2822,7 +2822,7 @@
   {
     "id": "notion-cbe09e6164de6986",
     "symbol": "MCK",
-    "name": "MCK",
+    "name": "McKesson Corporation",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 697.08,
@@ -2837,7 +2837,7 @@
   {
     "id": "notion-d81cbac95aa3f5fa",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2025-04-20",
     "recommendPrice": 367.78,
@@ -2852,7 +2852,7 @@
   {
     "id": "notion-367a0eb4c33549d2",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 526.41,
@@ -2867,7 +2867,7 @@
   {
     "id": "notion-6e0cea72f6112022",
     "symbol": "UNH",
-    "name": "UNH",
+    "name": "UnitedHealth Group Incorporated",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 454.11,
@@ -2882,7 +2882,7 @@
   {
     "id": "notion-4635eaeaca81562b",
     "symbol": "WMT",
-    "name": "WMT",
+    "name": "Walmart Inc.",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 93.22,
@@ -2897,7 +2897,7 @@
   {
     "id": "notion-ba28a6a59f329442",
     "symbol": "XOM",
-    "name": "XOM",
+    "name": "Exxon Mobil Corporation",
     "sector": "其他",
     "recommendDate": "2025-04-20",
     "recommendPrice": 106.92,
@@ -2912,7 +2912,7 @@
   {
     "id": "notion-ea0328adf0884c84",
     "symbol": "AAPL",
-    "name": "AAPL",
+    "name": "Apple Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-04-27",
     "recommendPrice": 209.28,
@@ -2927,7 +2927,7 @@
   {
     "id": "notion-c5688773ea7696fa",
     "symbol": "AGG",
-    "name": "AGG",
+    "name": "iShares Core U.S. Aggregate Bond ETF",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 98.6,
@@ -2942,7 +2942,7 @@
   {
     "id": "notion-96adc29bbb32ab24",
     "symbol": "AMD",
-    "name": "AMD",
+    "name": "Advanced Micro Devices, Inc.",
     "sector": "AI晶片",
     "recommendDate": "2025-04-27",
     "recommendPrice": 96.65,
@@ -2957,7 +2957,7 @@
   {
     "id": "notion-76feb8d70a3cf1fa",
     "symbol": "AMZN",
-    "name": "AMZN",
+    "name": "Amazon.com, Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-04-27",
     "recommendPrice": 188.99,
@@ -2972,7 +2972,7 @@
   {
     "id": "notion-876eadb18240f422",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2025-04-27",
     "recommendPrice": 192.31,
@@ -2987,7 +2987,7 @@
   {
     "id": "notion-4f3f4dbc2df7133b",
     "symbol": "BND",
-    "name": "BND",
+    "name": "Vanguard Total Bond Market Index Fund",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 73.18,
@@ -3002,7 +3002,7 @@
   {
     "id": "notion-92a10fe94fd33ab8",
     "symbol": "GOOG",
-    "name": "GOOG",
+    "name": "Alphabet Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-04-27",
     "recommendPrice": 163.85,
@@ -3017,7 +3017,7 @@
   {
     "id": "notion-07c40a21806f6957",
     "symbol": "JNJ",
-    "name": "JNJ",
+    "name": "Johnson & Johnson",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 154.58,
@@ -3032,7 +3032,7 @@
   {
     "id": "notion-fcd83df2de0e9d18",
     "symbol": "KO",
-    "name": "KO",
+    "name": "The Coca-Cola Company",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 71.91,
@@ -3047,7 +3047,7 @@
   {
     "id": "notion-ad9d19b965ae9680",
     "symbol": "META",
-    "name": "META",
+    "name": "Meta Platforms, Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-04-27",
     "recommendPrice": 547.27,
@@ -3062,7 +3062,7 @@
   {
     "id": "notion-822ec80962adf604",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2025-04-27",
     "recommendPrice": 111.01,
@@ -3077,7 +3077,7 @@
   {
     "id": "notion-967036c4bea04854",
     "symbol": "O",
-    "name": "O",
+    "name": "Realty Income Corporation",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 56.89,
@@ -3092,7 +3092,7 @@
   {
     "id": "notion-88297fe9dcc3c3dc",
     "symbol": "PG",
-    "name": "PG",
+    "name": "The Procter & Gamble Company",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 161.02,
@@ -3107,7 +3107,7 @@
   {
     "id": "notion-c8dbc8e5091f2cc6",
     "symbol": "PM",
-    "name": "PM",
+    "name": "Philip Morris International Inc.",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 170.24,
@@ -3122,7 +3122,7 @@
   {
     "id": "notion-e5771838aa458990",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 472.56,
@@ -3137,7 +3137,7 @@
   {
     "id": "notion-7a4dc416393de4d1",
     "symbol": "SCHD",
-    "name": "SCHD",
+    "name": "Schwab U.S. Dividend Equity ETF",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 25.67,
@@ -3152,7 +3152,7 @@
   {
     "id": "notion-6c6b895ead3e11a1",
     "symbol": "SGOV",
-    "name": "SGOV",
+    "name": "iShares 0-3 Month Treasury Bond ETF",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 100.65,
@@ -3167,7 +3167,7 @@
   {
     "id": "notion-5bd2c1941fc01e0d",
     "symbol": "SHV",
-    "name": "SHV",
+    "name": "iShares Trust iShares 0-1 Year Treasury Bond ETF",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 110.42,
@@ -3182,7 +3182,7 @@
   {
     "id": "notion-446d7d201b09bfa5",
     "symbol": "SQQQ",
-    "name": "SQQQ",
+    "name": "ProShares UltraPro Short QQQ",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 158.25,
@@ -3197,7 +3197,7 @@
   {
     "id": "notion-7bbc89636db34dae",
     "symbol": "TQQQ",
-    "name": "TQQQ",
+    "name": "ProShares UltraPro QQQ",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 26.93,
@@ -3212,7 +3212,7 @@
   {
     "id": "notion-8a43ffac3ed196c4",
     "symbol": "TSLA",
-    "name": "TSLA",
+    "name": "Tesla, Inc.",
     "sector": "電動車",
     "recommendDate": "2025-04-27",
     "recommendPrice": 284.95,
@@ -3227,7 +3227,7 @@
   {
     "id": "notion-f008faa8cb9c8ae9",
     "symbol": "TSM",
-    "name": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Company Limited",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 165.1,
@@ -3242,7 +3242,7 @@
   {
     "id": "notion-e4510c967cd2bada",
     "symbol": "VYM",
-    "name": "VYM",
+    "name": "Vanguard High Dividend Yield Index Fund",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 123.3,
@@ -3257,7 +3257,7 @@
   {
     "id": "notion-b7c8c736c4963361",
     "symbol": "XLP",
-    "name": "XLP",
+    "name": "State Street Consumer Staples Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 80.84,
@@ -3272,7 +3272,7 @@
   {
     "id": "notion-e02279c120f4163c",
     "symbol": "XLV",
-    "name": "XLV",
+    "name": "State Street Health Care Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-04-27",
     "recommendPrice": 138.05,
@@ -3287,7 +3287,7 @@
   {
     "id": "notion-594c6ff364d3ada7",
     "symbol": "AGG",
-    "name": "AGG",
+    "name": "iShares Core U.S. Aggregate Bond ETF",
     "sector": "其他",
     "recommendDate": "2025-06-01",
     "recommendPrice": 98.1,
@@ -3302,7 +3302,7 @@
   {
     "id": "notion-bfb11a5b4fec1bfb",
     "symbol": "BND",
-    "name": "BND",
+    "name": "Vanguard Total Bond Market Index Fund",
     "sector": "其他",
     "recommendDate": "2025-06-01",
     "recommendPrice": 72.77,
@@ -3317,7 +3317,7 @@
   {
     "id": "notion-1c9eb8158745ae66",
     "symbol": "BTC",
-    "name": "BTC",
+    "name": "Grayscale Bitcoin Mini Trust (BTC)",
     "sector": "其他",
     "recommendDate": "2025-06-01",
     "recommendPrice": 46.29,
@@ -3332,7 +3332,7 @@
   {
     "id": "notion-6983ac9b980e870f",
     "symbol": "ETH",
-    "name": "ETH",
+    "name": "Grayscale Ethereum Staking Mini ETF",
     "sector": "其他",
     "recommendDate": "2025-06-01",
     "recommendPrice": 24.24,
@@ -3347,7 +3347,7 @@
   {
     "id": "notion-00a30dd3d50af8d5",
     "symbol": "IBIT",
-    "name": "IBIT",
+    "name": "iShares Bitcoin Trust",
     "sector": "加密貨幣",
     "recommendDate": "2025-06-01",
     "recommendPrice": 59.46,
@@ -3362,7 +3362,7 @@
   {
     "id": "notion-c4974df067816cc2",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2025-06-01",
     "recommendPrice": 519.11,
@@ -3377,7 +3377,7 @@
   {
     "id": "notion-8c8e4007491b6387",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2025-06-01",
     "recommendPrice": 589.39,
@@ -3392,7 +3392,7 @@
   {
     "id": "notion-aa76e60bb1ef5d21",
     "symbol": "TLT",
-    "name": "TLT",
+    "name": "iShares 20+ Year Treasury Bond ETF",
     "sector": "ETF",
     "recommendDate": "2025-06-01",
     "recommendPrice": 86.28,
@@ -3407,7 +3407,7 @@
   {
     "id": "notion-d7f582c8bc032b7b",
     "symbol": "VOO",
-    "name": "VOO",
+    "name": "Vanguard S&P 500 ETF",
     "sector": "其他",
     "recommendDate": "2025-06-01",
     "recommendPrice": 541.76,
@@ -3422,7 +3422,7 @@
   {
     "id": "notion-c52027124e449063",
     "symbol": "AAPL",
-    "name": "AAPL",
+    "name": "Apple Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-12-21",
     "recommendPrice": 273.67,
@@ -3437,7 +3437,7 @@
   {
     "id": "notion-9742572757bf170c",
     "symbol": "AEHR",
-    "name": "AEHR",
+    "name": "Aehr Test Systems",
     "sector": "半導體",
     "recommendDate": "2025-12-21",
     "recommendPrice": 21.81,
@@ -3452,7 +3452,7 @@
   {
     "id": "notion-b36da7e47d330042",
     "symbol": "ALAB",
-    "name": "ALAB",
+    "name": "Astera Labs, Inc. Common Stock",
     "sector": "半導體",
     "recommendDate": "2025-12-21",
     "recommendPrice": 164.4,
@@ -3467,7 +3467,7 @@
   {
     "id": "notion-a0e093c46d7a22bd",
     "symbol": "AMZN",
-    "name": "AMZN",
+    "name": "Amazon.com, Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-12-21",
     "recommendPrice": 227.35,
@@ -3482,7 +3482,7 @@
   {
     "id": "notion-f7d98bf2e53ddc1e",
     "symbol": "APLD",
-    "name": "APLD",
+    "name": "Applied Digital Corporation",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 27.85,
@@ -3497,7 +3497,7 @@
   {
     "id": "notion-dff920430dc3a6e3",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2025-12-21",
     "recommendPrice": 340.36,
@@ -3512,7 +3512,7 @@
   {
     "id": "notion-5a95e5ae7983f1ea",
     "symbol": "AXTI",
-    "name": "AXTI",
+    "name": "AXT, Inc.",
     "sector": "半導體",
     "recommendDate": "2025-12-21",
     "recommendPrice": 14.65,
@@ -3527,7 +3527,7 @@
   {
     "id": "notion-9985c6142ab9857b",
     "symbol": "BND",
-    "name": "BND",
+    "name": "Vanguard Total Bond Market Index Fund",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 74.04,
@@ -3542,7 +3542,7 @@
   {
     "id": "notion-412efb8e726ce64d",
     "symbol": "CLS",
-    "name": "CLS",
+    "name": "Celestica Inc.",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 292.29,
@@ -3557,7 +3557,7 @@
   {
     "id": "notion-1d49bbd136e4aa25",
     "symbol": "CRWV",
-    "name": "CRWV",
+    "name": "CoreWeave, Inc. Class A Common Stock",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 83.0,
@@ -3572,7 +3572,7 @@
   {
     "id": "notion-36dd66318820d3bc",
     "symbol": "FN",
-    "name": "FN",
+    "name": "Fabrinet",
     "sector": "光通訊",
     "recommendDate": "2025-12-21",
     "recommendPrice": 475.47,
@@ -3587,7 +3587,7 @@
   {
     "id": "notion-d412ca5dca22de11",
     "symbol": "FORM",
-    "name": "FORM",
+    "name": "FormFactor, Inc.",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 56.97,
@@ -3602,7 +3602,7 @@
   {
     "id": "notion-c8ff6df86773b2cf",
     "symbol": "GOOGL",
-    "name": "GOOGL",
+    "name": "Alphabet Inc.",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 307.16,
@@ -3617,7 +3617,7 @@
   {
     "id": "notion-b6c87a7cea4f313a",
     "symbol": "HOOD",
-    "name": "HOOD",
+    "name": "Robinhood Markets, Inc.",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 121.35,
@@ -3632,7 +3632,7 @@
   {
     "id": "notion-58620dc9e3cc7654",
     "symbol": "LITE",
-    "name": "LITE",
+    "name": "Lumentum Holdings Inc.",
     "sector": "光通訊",
     "recommendDate": "2025-12-21",
     "recommendPrice": 371.43,
@@ -3647,7 +3647,7 @@
   {
     "id": "notion-19e53805037c703a",
     "symbol": "MAGS",
-    "name": "MAGS",
+    "name": "Roundhill Magnificent Seven ETF",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 67.12,
@@ -3662,7 +3662,7 @@
   {
     "id": "notion-849b2870578f7b46",
     "symbol": "META",
-    "name": "META",
+    "name": "Meta Platforms, Inc.",
     "sector": "大型科技",
     "recommendDate": "2025-12-21",
     "recommendPrice": 658.77,
@@ -3677,7 +3677,7 @@
   {
     "id": "notion-73a24d398f3171d1",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2025-12-21",
     "recommendPrice": 485.92,
@@ -3692,7 +3692,7 @@
   {
     "id": "notion-4e68b704410aa8d4",
     "symbol": "MU",
-    "name": "MU",
+    "name": "Micron Technology, Inc.",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 265.92,
@@ -3707,7 +3707,7 @@
   {
     "id": "notion-2a1da145d9ebface",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2025-12-21",
     "recommendPrice": 180.99,
@@ -3722,7 +3722,7 @@
   {
     "id": "notion-f3c106e36e36bf63",
     "symbol": "ORCL",
-    "name": "ORCL",
+    "name": "Oracle Corporation",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 191.97,
@@ -3737,7 +3737,7 @@
   {
     "id": "notion-a36d911f088dd758",
     "symbol": "QID",
-    "name": "QID",
+    "name": "ProShares UltraShort QQQ",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 20.37,
@@ -3752,7 +3752,7 @@
   {
     "id": "notion-f61bada769afd4c7",
     "symbol": "QLD",
-    "name": "QLD",
+    "name": "ProShares Ultra QQQ",
     "sector": "ETF",
     "recommendDate": "2025-12-21",
     "recommendPrice": 71.05,
@@ -3767,7 +3767,7 @@
   {
     "id": "notion-3bb13eefaa097275",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 617.05,
@@ -3782,7 +3782,7 @@
   {
     "id": "notion-83f797419f403d97",
     "symbol": "RMBS",
-    "name": "RMBS",
+    "name": "Rambus Inc.",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 96.4,
@@ -3797,7 +3797,7 @@
   {
     "id": "notion-7011d513ee6e1c0c",
     "symbol": "RR",
-    "name": "RR",
+    "name": "Richtech Robotics Inc. Class B Common Stock",
     "sector": "機器人",
     "recommendDate": "2025-12-21",
     "recommendPrice": 3.54,
@@ -3812,7 +3812,7 @@
   {
     "id": "notion-753c98490ea6e6db",
     "symbol": "SGOV",
-    "name": "SGOV",
+    "name": "iShares 0-3 Month Treasury Bond ETF",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 100.28,
@@ -3827,7 +3827,7 @@
   {
     "id": "notion-56f666bfe972b68e",
     "symbol": "SNDK",
-    "name": "SNDK",
+    "name": "Sandisk Corporation",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 237.61,
@@ -3842,7 +3842,7 @@
   {
     "id": "notion-11e187766882bf6b",
     "symbol": "SPXL",
-    "name": "SPXL",
+    "name": "Direxion Daily S&P500 Bull 3X Shares",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 220.19,
@@ -3857,7 +3857,7 @@
   {
     "id": "notion-4d407de88eeb5b20",
     "symbol": "SQQQ",
-    "name": "SQQQ",
+    "name": "ProShares UltraPro Short QQQ",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 69.12,
@@ -3872,7 +3872,7 @@
   {
     "id": "notion-5a694dc4b6a40127",
     "symbol": "SSO",
-    "name": "SSO",
+    "name": "ProShares Ultra S&P500",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 57.91,
@@ -3887,7 +3887,7 @@
   {
     "id": "notion-d2859803789a1cd3",
     "symbol": "TLT",
-    "name": "TLT",
+    "name": "iShares 20+ Year Treasury Bond ETF",
     "sector": "ETF",
     "recommendDate": "2025-12-21",
     "recommendPrice": 87.55,
@@ -3902,7 +3902,7 @@
   {
     "id": "notion-5ed60559e1d65cf7",
     "symbol": "TQQQ",
-    "name": "TQQQ",
+    "name": "ProShares UltraPro QQQ",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 53.52,
@@ -3917,7 +3917,7 @@
   {
     "id": "notion-286bde577f307e74",
     "symbol": "TSLA",
-    "name": "TSLA",
+    "name": "Tesla, Inc.",
     "sector": "電動車",
     "recommendDate": "2025-12-21",
     "recommendPrice": 481.2,
@@ -3932,7 +3932,7 @@
   {
     "id": "notion-67343bc12f41842b",
     "symbol": "TTMI",
-    "name": "TTMI",
+    "name": "TTM Technologies, Inc.",
     "sector": "半導體",
     "recommendDate": "2025-12-21",
     "recommendPrice": 70.38,
@@ -3947,7 +3947,7 @@
   {
     "id": "notion-4cff91657c9b046d",
     "symbol": "UMAC",
-    "name": "UMAC",
+    "name": "Unusual Machines, Inc.",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 9.85,
@@ -3962,7 +3962,7 @@
   {
     "id": "notion-d895a9940c1e57f0",
     "symbol": "UNH",
-    "name": "UNH",
+    "name": "UnitedHealth Group Incorporated",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 327.42,
@@ -3977,7 +3977,7 @@
   {
     "id": "notion-5117d6a4a555470b",
     "symbol": "VOO",
-    "name": "VOO",
+    "name": "Vanguard S&P 500 ETF",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 627.56,
@@ -3992,7 +3992,7 @@
   {
     "id": "notion-0eef5bb23da49bcc",
     "symbol": "VT",
-    "name": "VT",
+    "name": "Vanguard Total World Stock Index Fund",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 140.5,
@@ -4007,7 +4007,7 @@
   {
     "id": "notion-95e14155bd19e596",
     "symbol": "VTI",
-    "name": "VTI",
+    "name": "Vanguard Total Stock Market Index Fund",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 336.22,
@@ -4022,7 +4022,7 @@
   {
     "id": "notion-4c95863ba4f578f1",
     "symbol": "WDC",
-    "name": "WDC",
+    "name": "Western Digital Corporation",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 181.08,
@@ -4037,7 +4037,7 @@
   {
     "id": "notion-baa58abe9fc7561f",
     "symbol": "XLV",
-    "name": "XLV",
+    "name": "State Street Health Care Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2025-12-21",
     "recommendPrice": 154.94,
@@ -4052,7 +4052,7 @@
   {
     "id": "notion-b1d27ed7acc7f4a7",
     "symbol": "AAPL",
-    "name": "AAPL",
+    "name": "Apple Inc.",
     "sector": "大型科技",
     "recommendDate": "2026-01-11",
     "recommendPrice": 259.37,
@@ -4067,7 +4067,7 @@
   {
     "id": "notion-9e38e5b8573da558",
     "symbol": "ABC",
-    "name": "ABC",
+    "name": "AmerisourceBergen Corporation",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": null,
@@ -4082,7 +4082,7 @@
   {
     "id": "notion-f68b8913eb9e9e01",
     "symbol": "ABT",
-    "name": "ABT",
+    "name": "Abbott Laboratories",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 125.92,
@@ -4097,7 +4097,7 @@
   {
     "id": "notion-7b0f936167bf24b3",
     "symbol": "AMZN",
-    "name": "AMZN",
+    "name": "Amazon.com, Inc.",
     "sector": "大型科技",
     "recommendDate": "2026-01-11",
     "recommendPrice": 247.38,
@@ -4112,7 +4112,7 @@
   {
     "id": "notion-bcebdb209045ec6a",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2026-01-11",
     "recommendPrice": 344.97,
@@ -4127,7 +4127,7 @@
   {
     "id": "notion-c3baa2fda0ded839",
     "symbol": "BAC",
-    "name": "BAC",
+    "name": "Bank of America Corporation",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 55.85,
@@ -4142,7 +4142,7 @@
   {
     "id": "notion-3e47dc0f02419783",
     "symbol": "C",
-    "name": "C",
+    "name": "Citigroup Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 121.32,
@@ -4157,7 +4157,7 @@
   {
     "id": "notion-810fd6fdc748667f",
     "symbol": "CAH",
-    "name": "CAH",
+    "name": "Cardinal Health, Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 201.11,
@@ -4172,7 +4172,7 @@
   {
     "id": "notion-d3e35f9c0e092762",
     "symbol": "CELH",
-    "name": "CELH",
+    "name": "Celsius Holdings, Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 52.9,
@@ -4187,7 +4187,7 @@
   {
     "id": "notion-eef182e2b88aced4",
     "symbol": "CI",
-    "name": "CI",
+    "name": "Cigna Corporation",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 278.95,
@@ -4202,7 +4202,7 @@
   {
     "id": "notion-2b2a2c6d6d1a2359",
     "symbol": "CMG",
-    "name": "CMG",
+    "name": "Chipotle Mexican Grill, Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 40.11,
@@ -4217,7 +4217,7 @@
   {
     "id": "notion-c25f72287413979a",
     "symbol": "CVS",
-    "name": "CVS",
+    "name": "CVS Health Corporation",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 80.3,
@@ -4232,7 +4232,7 @@
   {
     "id": "notion-30a1aa32709d2c29",
     "symbol": "CVX",
-    "name": "CVX",
+    "name": "Chevron Corporation",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 162.11,
@@ -4247,7 +4247,7 @@
   {
     "id": "notion-9e846bf2ed4a3560",
     "symbol": "ELV",
-    "name": "ELV",
+    "name": "Elevance Health Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 372.83,
@@ -4262,7 +4262,7 @@
   {
     "id": "notion-5a6e17f61286a285",
     "symbol": "F",
-    "name": "F",
+    "name": "Ford Motor Company",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 14.2,
@@ -4277,7 +4277,7 @@
   {
     "id": "notion-a23523f77a19889c",
     "symbol": "FDX",
-    "name": "FDX",
+    "name": "FedEx Corporation",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 312.36,
@@ -4292,7 +4292,7 @@
   {
     "id": "notion-5d96206339b1e862",
     "symbol": "GM",
-    "name": "GM",
+    "name": "General Motors Company",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 82.87,
@@ -4307,7 +4307,7 @@
   {
     "id": "notion-c15bbde26dea8741",
     "symbol": "GOOGL",
-    "name": "GOOGL",
+    "name": "Alphabet Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 328.57,
@@ -4322,7 +4322,7 @@
   {
     "id": "notion-26d6d84a013bec7b",
     "symbol": "IWM",
-    "name": "IWM",
+    "name": "iShares Russell 2000 ETF",
     "sector": "ETF",
     "recommendDate": "2026-01-11",
     "recommendPrice": 260.23,
@@ -4337,7 +4337,7 @@
   {
     "id": "notion-15c3ed11d28d7e19",
     "symbol": "JPM",
-    "name": "JPM",
+    "name": "JPMorgan Chase & Co.",
     "sector": "金融",
     "recommendDate": "2026-01-11",
     "recommendPrice": 329.19,
@@ -4352,7 +4352,7 @@
   {
     "id": "notion-dfe863a66ef0bb57",
     "symbol": "MAGS",
-    "name": "MAGS",
+    "name": "Roundhill Magnificent Seven ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 66.37,
@@ -4367,7 +4367,7 @@
   {
     "id": "notion-ab5ef31059d5cd92",
     "symbol": "MCK",
-    "name": "MCK",
+    "name": "McKesson Corporation",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 816.06,
@@ -4382,7 +4382,7 @@
   {
     "id": "notion-b8fc3b3c95e37f6e",
     "symbol": "META",
-    "name": "META",
+    "name": "Meta Platforms, Inc.",
     "sector": "大型科技",
     "recommendDate": "2026-01-11",
     "recommendPrice": 653.06,
@@ -4397,7 +4397,7 @@
   {
     "id": "notion-a6b78e05ebc09783",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2026-01-11",
     "recommendPrice": 479.28,
@@ -4412,7 +4412,7 @@
   {
     "id": "notion-9d0fd92fc4314cd8",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2026-01-11",
     "recommendPrice": 184.86,
@@ -4427,7 +4427,7 @@
   {
     "id": "notion-34c3996865f9ac6b",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 626.65,
@@ -4442,7 +4442,7 @@
   {
     "id": "notion-b9846e39005030be",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 694.07,
@@ -4457,7 +4457,7 @@
   {
     "id": "notion-524090a4c5e43053",
     "symbol": "TGT",
-    "name": "TGT",
+    "name": "Target Corporation",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 105.52,
@@ -4472,7 +4472,7 @@
   {
     "id": "notion-ade11f4118251d1c",
     "symbol": "TSLA",
-    "name": "TSLA",
+    "name": "Tesla, Inc.",
     "sector": "電動車",
     "recommendDate": "2026-01-11",
     "recommendPrice": 445.01,
@@ -4487,7 +4487,7 @@
   {
     "id": "notion-f87f22e349fd54f4",
     "symbol": "ULTA",
-    "name": "ULTA",
+    "name": "Ulta Beauty, Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 666.18,
@@ -4502,7 +4502,7 @@
   {
     "id": "notion-c1b406abd8bf9b6f",
     "symbol": "UNH",
-    "name": "UNH",
+    "name": "UnitedHealth Group Incorporated",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 343.98,
@@ -4517,7 +4517,7 @@
   {
     "id": "notion-035e701309464920",
     "symbol": "UPS",
-    "name": "UPS",
+    "name": "United Parcel Service, Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 108.06,
@@ -4532,7 +4532,7 @@
   {
     "id": "notion-3eaae9ad8885ed52",
     "symbol": "VOO",
-    "name": "VOO",
+    "name": "Vanguard S&P 500 ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 638.31,
@@ -4547,7 +4547,7 @@
   {
     "id": "notion-b707bdd18b5cd9ad",
     "symbol": "WFC",
-    "name": "WFC",
+    "name": "Wells Fargo & Company",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 95.95,
@@ -4562,7 +4562,7 @@
   {
     "id": "notion-6635163e7f9b3ce0",
     "symbol": "WMT",
-    "name": "WMT",
+    "name": "Walmart Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 114.53,
@@ -4577,7 +4577,7 @@
   {
     "id": "notion-1a0c878c35e245c0",
     "symbol": "XLB",
-    "name": "XLB",
+    "name": "State Street Materials Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 48.26,
@@ -4592,7 +4592,7 @@
   {
     "id": "notion-5378db6c86b26fed",
     "symbol": "XLC",
-    "name": "XLC",
+    "name": "State Street Communication Services Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 117.91,
@@ -4607,7 +4607,7 @@
   {
     "id": "notion-b1d3783a3ea90696",
     "symbol": "XLE",
-    "name": "XLE",
+    "name": "State Street Energy Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 46.67,
@@ -4622,7 +4622,7 @@
   {
     "id": "notion-51365ae3be76e667",
     "symbol": "XLF",
-    "name": "XLF",
+    "name": "State Street Financial Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 55.73,
@@ -4637,7 +4637,7 @@
   {
     "id": "notion-7e6ff51f75e04def",
     "symbol": "XLI",
-    "name": "XLI",
+    "name": "State Street Industrial Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 161.93,
@@ -4652,7 +4652,7 @@
   {
     "id": "notion-5aa9eed4f130e3cd",
     "symbol": "XLK",
-    "name": "XLK",
+    "name": "State Street Technology Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 146.15,
@@ -4667,7 +4667,7 @@
   {
     "id": "notion-23235aa60d118ef3",
     "symbol": "XLP",
-    "name": "XLP",
+    "name": "State Street Consumer Staples Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 79.25,
@@ -4682,7 +4682,7 @@
   {
     "id": "notion-07db50ca28cae9b1",
     "symbol": "XLRE",
-    "name": "XLRE",
+    "name": "State Street Real Estate Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 40.5,
@@ -4697,7 +4697,7 @@
   {
     "id": "notion-e93eba14c36d8665",
     "symbol": "XLU",
-    "name": "XLU",
+    "name": "State Street Utilities Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 42.51,
@@ -4712,7 +4712,7 @@
   {
     "id": "notion-11f3f34d57f6eb0f",
     "symbol": "XLV",
-    "name": "XLV",
+    "name": "State Street Health Care Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 157.31,
@@ -4727,7 +4727,7 @@
   {
     "id": "notion-b79d1d3fb16678dd",
     "symbol": "XOM",
-    "name": "XOM",
+    "name": "Exxon Mobil Corporation",
     "sector": "其他",
     "recommendDate": "2026-01-11",
     "recommendPrice": 124.61,
@@ -4742,7 +4742,7 @@
   {
     "id": "notion-1ae185074a044a43",
     "symbol": "FSLR",
-    "name": "FSLR",
+    "name": "First Solar, Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-18",
     "recommendPrice": 243.73,
@@ -4757,7 +4757,7 @@
   {
     "id": "notion-fb11433a6aa7eba5",
     "symbol": "GLD",
-    "name": "GLD",
+    "name": "SPDR Gold Shares",
     "sector": "其他",
     "recommendDate": "2026-01-18",
     "recommendPrice": 421.29,
@@ -4772,7 +4772,7 @@
   {
     "id": "notion-9389700beb07beec",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2026-01-18",
     "recommendPrice": 186.23,
@@ -4787,7 +4787,7 @@
   {
     "id": "notion-49d387d8159aa795",
     "symbol": "SLV",
-    "name": "SLV",
+    "name": "iShares Silver Trust",
     "sector": "其他",
     "recommendDate": "2026-01-18",
     "recommendPrice": 81.02,
@@ -4802,7 +4802,7 @@
   {
     "id": "notion-bd957c8fa8522056",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2026-01-18",
     "recommendPrice": 691.66,
@@ -4817,7 +4817,7 @@
   {
     "id": "notion-25fa584f75d01e43",
     "symbol": "VOO",
-    "name": "VOO",
+    "name": "Vanguard S&P 500 ETF",
     "sector": "其他",
     "recommendDate": "2026-01-18",
     "recommendPrice": 636.09,
@@ -4832,7 +4832,7 @@
   {
     "id": "notion-3888990b09b41309",
     "symbol": "COPX",
-    "name": "COPX",
+    "name": "Global X Copper Miners ETF",
     "sector": "其他",
     "recommendDate": "2026-01-25",
     "recommendPrice": 86.01,
@@ -4847,7 +4847,7 @@
   {
     "id": "notion-6ddc683e1fa07d4f",
     "symbol": "CPER",
-    "name": "CPER",
+    "name": "United States Copper Index Fund, LP",
     "sector": "其他",
     "recommendDate": "2026-01-25",
     "recommendPrice": 36.52,
@@ -4862,7 +4862,7 @@
   {
     "id": "notion-c81fae531a262410",
     "symbol": "FCX",
-    "name": "FCX",
+    "name": "Freeport-McMoRan Inc.",
     "sector": "其他",
     "recommendDate": "2026-01-25",
     "recommendPrice": 60.41,
@@ -4877,7 +4877,7 @@
   {
     "id": "notion-bbaae565291033e4",
     "symbol": "NAK",
-    "name": "NAK",
+    "name": "Northern Dynasty Minerals Ltd.",
     "sector": "礦業",
     "recommendDate": "2026-01-25",
     "recommendPrice": 2.13,
@@ -4892,7 +4892,7 @@
   {
     "id": "notion-fd6e78298b1b3c04",
     "symbol": "CVX",
-    "name": "CVX",
+    "name": "Chevron Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-01",
     "recommendPrice": 176.9,
@@ -4907,7 +4907,7 @@
   {
     "id": "notion-5737b1fc98b8c992",
     "symbol": "GLD",
-    "name": "GLD",
+    "name": "SPDR Gold Shares",
     "sector": "其他",
     "recommendDate": "2026-02-01",
     "recommendPrice": 444.95,
@@ -4922,7 +4922,7 @@
   {
     "id": "notion-c6f375d81d05ca3e",
     "symbol": "XLE",
-    "name": "XLE",
+    "name": "State Street Energy Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-02-01",
     "recommendPrice": 51.05,
@@ -4937,7 +4937,7 @@
   {
     "id": "notion-4f48fb031d5d358e",
     "symbol": "XOM",
-    "name": "XOM",
+    "name": "Exxon Mobil Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-01",
     "recommendPrice": 141.4,
@@ -4952,7 +4952,7 @@
   {
     "id": "notion-609a44809ca8e497",
     "symbol": "ALTS",
-    "name": "ALTS",
+    "name": "ALT5 Sigma Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-03",
     "recommendPrice": 2.1,
@@ -4967,7 +4967,7 @@
   {
     "id": "notion-8163b80557beed83",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2026-02-03",
     "recommendPrice": 320.33,
@@ -4982,7 +4982,7 @@
   {
     "id": "notion-fa90c8a2a9368441",
     "symbol": "AXTI",
-    "name": "AXTI",
+    "name": "AXT, Inc.",
     "sector": "半導體",
     "recommendDate": "2026-02-03",
     "recommendPrice": 19.74,
@@ -4997,7 +4997,7 @@
   {
     "id": "notion-a52d0e70eb690173",
     "symbol": "COHR",
-    "name": "COHR",
+    "name": "Coherent, Inc.",
     "sector": "光通訊",
     "recommendDate": "2026-02-03",
     "recommendPrice": 229.18,
@@ -5012,7 +5012,7 @@
   {
     "id": "notion-910e172ae1d8d929",
     "symbol": "GLW",
-    "name": "GLW",
+    "name": "Corning Incorporated",
     "sector": "光通訊",
     "recommendDate": "2026-02-03",
     "recommendPrice": 112.79,
@@ -5027,7 +5027,7 @@
   {
     "id": "notion-e273f0b82fae5d9b",
     "symbol": "KRE",
-    "name": "KRE",
+    "name": "State Street SPDR S&P Regional Banking ETF",
     "sector": "其他",
     "recommendDate": "2026-02-03",
     "recommendPrice": 71.24,
@@ -5042,7 +5042,7 @@
   {
     "id": "notion-52a8e4d4f22e8182",
     "symbol": "LITE",
-    "name": "LITE",
+    "name": "Lumentum Holdings Inc.",
     "sector": "光通訊",
     "recommendDate": "2026-02-03",
     "recommendPrice": 435.1,
@@ -5057,7 +5057,7 @@
   {
     "id": "notion-a367dd5c273b9683",
     "symbol": "MS",
-    "name": "MS",
+    "name": "Morgan Stanley",
     "sector": "金融",
     "recommendDate": "2026-02-03",
     "recommendPrice": 182.91,
@@ -5072,7 +5072,7 @@
   {
     "id": "notion-8b68fe85295f2cda",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2026-02-03",
     "recommendPrice": 411.21,
@@ -5087,7 +5087,7 @@
   {
     "id": "notion-657c653e3f28ba91",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2026-02-03",
     "recommendPrice": 180.34,
@@ -5102,7 +5102,7 @@
   {
     "id": "notion-5b868990364b478c",
     "symbol": "ORCL",
-    "name": "ORCL",
+    "name": "Oracle Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-03",
     "recommendPrice": 154.67,
@@ -5117,7 +5117,7 @@
   {
     "id": "notion-193d9b94cc4a6e05",
     "symbol": "TSM",
-    "name": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Company Limited",
     "sector": "其他",
     "recommendDate": "2026-02-03",
     "recommendPrice": 335.75,
@@ -5132,7 +5132,7 @@
   {
     "id": "notion-c0afa13e8e3af1d2",
     "symbol": "VIAV",
-    "name": "VIAV",
+    "name": "Viavi Solutions Inc.",
     "sector": "光通訊",
     "recommendDate": "2026-02-03",
     "recommendPrice": 25.88,
@@ -5147,7 +5147,7 @@
   {
     "id": "notion-89ac0b26aa76dca7",
     "symbol": "VSH",
-    "name": "VSH",
+    "name": "Vishay Intertechnology, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-03",
     "recommendPrice": 20.74,
@@ -5162,7 +5162,7 @@
   {
     "id": "notion-060d7ae9e1dcc36d",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2026-02-04",
     "recommendPrice": 308.05,
@@ -5177,7 +5177,7 @@
   {
     "id": "notion-e091b147c3aa5a8a",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2026-02-04",
     "recommendPrice": 414.19,
@@ -5192,7 +5192,7 @@
   {
     "id": "notion-ca3022b97f92de70",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2026-02-04",
     "recommendPrice": 174.19,
@@ -5207,7 +5207,7 @@
   {
     "id": "notion-59a4281e4ae07e26",
     "symbol": "TSM",
-    "name": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Company Limited",
     "sector": "其他",
     "recommendDate": "2026-02-04",
     "recommendPrice": 325.74,
@@ -5222,7 +5222,7 @@
   {
     "id": "notion-2e1a39e3a43a6584",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2026-02-05",
     "recommendPrice": 171.88,
@@ -5237,7 +5237,7 @@
   {
     "id": "notion-9d88b66cd2bd1ac5",
     "symbol": "ORCL",
-    "name": "ORCL",
+    "name": "Oracle Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-05",
     "recommendPrice": 136.48,
@@ -5252,7 +5252,7 @@
   {
     "id": "notion-d9572fc387666e49",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2026-02-05",
     "recommendPrice": 597.03,
@@ -5267,7 +5267,7 @@
   {
     "id": "notion-e347ba950f0acb42",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2026-02-05",
     "recommendPrice": 677.62,
@@ -5282,7 +5282,7 @@
   {
     "id": "notion-b1b1b5c49fb11797",
     "symbol": "AMZN",
-    "name": "AMZN",
+    "name": "Amazon.com, Inc.",
     "sector": "大型科技",
     "recommendDate": "2026-02-06",
     "recommendPrice": 210.32,
@@ -5297,7 +5297,7 @@
   {
     "id": "notion-449b9ec68275ec95",
     "symbol": "AMZN",
-    "name": "AMZN",
+    "name": "Amazon.com, Inc.",
     "sector": "大型科技",
     "recommendDate": "2026-02-06",
     "recommendPrice": 210.32,
@@ -5312,7 +5312,7 @@
   {
     "id": "notion-7506a9541e448899",
     "symbol": "ANET",
-    "name": "ANET",
+    "name": "Arista Networks, Inc.",
     "sector": "AI基礎建設",
     "recommendDate": "2026-02-06",
     "recommendPrice": 137.49,
@@ -5327,7 +5327,7 @@
   {
     "id": "notion-091e94f2fc21b5ca",
     "symbol": "ATRO",
-    "name": "ATRO",
+    "name": "Astronics Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 76.58,
@@ -5342,7 +5342,7 @@
   {
     "id": "notion-98816294f55e7c74",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2026-02-06",
     "recommendPrice": 332.92,
@@ -5357,7 +5357,7 @@
   {
     "id": "notion-9e3d5d4c0fd96f52",
     "symbol": "AVGO",
-    "name": "AVGO",
+    "name": "Broadcom Inc.",
     "sector": "AI晶片",
     "recommendDate": "2026-02-06",
     "recommendPrice": 332.92,
@@ -5372,7 +5372,7 @@
   {
     "id": "notion-83112c56ce3fbd31",
     "symbol": "AXTI",
-    "name": "AXTI",
+    "name": "AXT, Inc.",
     "sector": "半導體",
     "recommendDate": "2026-02-06",
     "recommendPrice": 24.06,
@@ -5387,7 +5387,7 @@
   {
     "id": "notion-ab4cc952d325eeaa",
     "symbol": "COHR",
-    "name": "COHR",
+    "name": "Coherent, Inc.",
     "sector": "光通訊",
     "recommendDate": "2026-02-06",
     "recommendPrice": 227.68,
@@ -5402,7 +5402,7 @@
   {
     "id": "notion-3dbda056828de042",
     "symbol": "FN",
-    "name": "FN",
+    "name": "Fabrinet",
     "sector": "光通訊",
     "recommendDate": "2026-02-06",
     "recommendPrice": 503.99,
@@ -5417,7 +5417,7 @@
   {
     "id": "notion-8aa200a2d222e016",
     "symbol": "FORM",
-    "name": "FORM",
+    "name": "FormFactor, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 90.29,
@@ -5432,7 +5432,7 @@
   {
     "id": "notion-de3f5f63608192ee",
     "symbol": "FORM",
-    "name": "FORM",
+    "name": "FormFactor, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 90.29,
@@ -5447,7 +5447,7 @@
   {
     "id": "notion-41032d8f800b910a",
     "symbol": "GOOG",
-    "name": "GOOG",
+    "name": "Alphabet Inc.",
     "sector": "大型科技",
     "recommendDate": "2026-02-06",
     "recommendPrice": 323.1,
@@ -5462,7 +5462,7 @@
   {
     "id": "notion-1cc3e00752f54887",
     "symbol": "GOOG",
-    "name": "GOOG",
+    "name": "Alphabet Inc.",
     "sector": "大型科技",
     "recommendDate": "2026-02-06",
     "recommendPrice": 323.1,
@@ -5477,7 +5477,7 @@
   {
     "id": "notion-a40361aa4994c648",
     "symbol": "KLAC",
-    "name": "KLAC",
+    "name": "KLA Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 1442.95,
@@ -5492,7 +5492,7 @@
   {
     "id": "notion-a2158208cf5ed822",
     "symbol": "LITE",
-    "name": "LITE",
+    "name": "Lumentum Holdings Inc.",
     "sector": "光通訊",
     "recommendDate": "2026-02-06",
     "recommendPrice": 551.99,
@@ -5507,7 +5507,7 @@
   {
     "id": "notion-fd9d486daf26dbb9",
     "symbol": "LRCX",
-    "name": "LRCX",
+    "name": "Lam Research Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 231.01,
@@ -5522,7 +5522,7 @@
   {
     "id": "notion-4baf0b825624584c",
     "symbol": "MOD",
-    "name": "MOD",
+    "name": "Modine Manufacturing Company",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 215.72,
@@ -5537,7 +5537,7 @@
   {
     "id": "notion-4a928c79431e78ff",
     "symbol": "MRVL",
-    "name": "MRVL",
+    "name": "Marvell Technology, Inc.",
     "sector": "AI晶片",
     "recommendDate": "2026-02-06",
     "recommendPrice": 80.28,
@@ -5552,7 +5552,7 @@
   {
     "id": "notion-9ca004f8451bc73d",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2026-02-06",
     "recommendPrice": 401.14,
@@ -5567,7 +5567,7 @@
   {
     "id": "notion-a9188f5ee7a79d50",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2026-02-06",
     "recommendPrice": 185.41,
@@ -5582,7 +5582,7 @@
   {
     "id": "notion-9a5a9f2ac325f3d1",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 609.65,
@@ -5597,7 +5597,7 @@
   {
     "id": "notion-14276c64772aa612",
     "symbol": "ROK",
-    "name": "ROK",
+    "name": "Rockwell Automation, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 415.02,
@@ -5612,7 +5612,7 @@
   {
     "id": "notion-6e183c39364ec4be",
     "symbol": "SPY",
-    "name": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 690.62,
@@ -5627,7 +5627,7 @@
   {
     "id": "notion-5045495a79b55693",
     "symbol": "TER",
-    "name": "TER",
+    "name": "Teradyne, Inc.",
     "sector": "AI基礎建設",
     "recommendDate": "2026-02-06",
     "recommendPrice": 300.11,
@@ -5642,7 +5642,7 @@
   {
     "id": "notion-a42c3829d8f5edba",
     "symbol": "TSM",
-    "name": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Company Limited",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 348.85,
@@ -5657,7 +5657,7 @@
   {
     "id": "notion-d9424f1aed97848e",
     "symbol": "TSM",
-    "name": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Company Limited",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 348.85,
@@ -5672,7 +5672,7 @@
   {
     "id": "notion-738d531ec3d15b64",
     "symbol": "VIAV",
-    "name": "VIAV",
+    "name": "Viavi Solutions Inc.",
     "sector": "光通訊",
     "recommendDate": "2026-02-06",
     "recommendPrice": 26.38,
@@ -5687,7 +5687,7 @@
   {
     "id": "notion-062dcd3ff0ccd156",
     "symbol": "VICR",
-    "name": "VICR",
+    "name": "Vicor Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-06",
     "recommendPrice": 159.87,
@@ -5702,7 +5702,7 @@
   {
     "id": "notion-ec337e7ccade45d3",
     "symbol": "VRT",
-    "name": "VRT",
+    "name": "Vertiv Holdings Co",
     "sector": "AI基礎建設",
     "recommendDate": "2026-02-06",
     "recommendPrice": 195.58,
@@ -5717,7 +5717,7 @@
   {
     "id": "notion-89455a59a28620cf",
     "symbol": "QQQ",
-    "name": "QQQ",
+    "name": "Invesco QQQ Trust, Series 1",
     "sector": "其他",
     "recommendDate": "2026-02-08",
     "recommendPrice": 609.65,
@@ -5732,7 +5732,7 @@
   {
     "id": "notion-a245bbd8083660ff",
     "symbol": "VIG",
-    "name": "VIG",
+    "name": "Vanguard Dividend Appreciation Index Fund",
     "sector": "其他",
     "recommendDate": "2026-02-08",
     "recommendPrice": 229.53,
@@ -5747,7 +5747,7 @@
   {
     "id": "notion-45d85a85ce2baca6",
     "symbol": "VOO",
-    "name": "VOO",
+    "name": "Vanguard S&P 500 ETF",
     "sector": "其他",
     "recommendDate": "2026-02-08",
     "recommendPrice": 635.24,
@@ -5762,7 +5762,7 @@
   {
     "id": "notion-3dbb2d660d6ea051",
     "symbol": "XLU",
-    "name": "XLU",
+    "name": "State Street Utilities Select Sector SPDR ETF",
     "sector": "其他",
     "recommendDate": "2026-02-08",
     "recommendPrice": 43.35,
@@ -5777,7 +5777,7 @@
   {
     "id": "notion-0651d1103d9fc22f",
     "symbol": "BE",
-    "name": "BE",
+    "name": "Bloom Energy Corporation",
     "sector": "電力能源",
     "recommendDate": "2026-02-09",
     "recommendPrice": 155.17,
@@ -5792,7 +5792,7 @@
   {
     "id": "notion-85f91543ae709093",
     "symbol": "BTC",
-    "name": "BTC",
+    "name": "Grayscale Bitcoin Mini Trust (BTC)",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 31.32,
@@ -5807,7 +5807,7 @@
   {
     "id": "notion-6434689a946605bf",
     "symbol": "CEG",
-    "name": "CEG",
+    "name": "Constellation Energy Corporation",
     "sector": "電力能源",
     "recommendDate": "2026-02-09",
     "recommendPrice": 272.15,
@@ -5822,7 +5822,7 @@
   {
     "id": "notion-e34b847ac13ed0f3",
     "symbol": "COIN",
-    "name": "COIN",
+    "name": "Coinbase Global, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 167.25,
@@ -5837,7 +5837,7 @@
   {
     "id": "notion-9d73baaef8cd7ee1",
     "symbol": "EOSE",
-    "name": "EOSE",
+    "name": "Eos Energy Enterprises, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 13.24,
@@ -5852,7 +5852,7 @@
   {
     "id": "notion-f02fa4ceca80e2b3",
     "symbol": "ETN",
-    "name": "ETN",
+    "name": "Eaton Corporation plc",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 377.06,
@@ -5867,7 +5867,7 @@
   {
     "id": "notion-f5047fff0125dccb",
     "symbol": "FSLR",
-    "name": "FSLR",
+    "name": "First Solar, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 222.13,
@@ -5882,7 +5882,7 @@
   {
     "id": "notion-913ee68338be20d8",
     "symbol": "GLXY",
-    "name": "GLXY",
+    "name": "Galaxy Digital",
     "sector": "加密貨幣",
     "recommendDate": "2026-02-09",
     "recommendPrice": 21.15,
@@ -5897,7 +5897,7 @@
   {
     "id": "notion-803cd82a34128e66",
     "symbol": "HOOD",
-    "name": "HOOD",
+    "name": "Robinhood Markets, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 86.56,
@@ -5912,7 +5912,7 @@
   {
     "id": "notion-38feaa682bf7a3a9",
     "symbol": "IBKR",
-    "name": "IBKR",
+    "name": "Interactive Brokers Group, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 78.42,
@@ -5927,7 +5927,7 @@
   {
     "id": "notion-1885391f6f4dbe18",
     "symbol": "JKS",
-    "name": "JKS",
+    "name": "JinkoSolar Holding Co., Ltd.",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 28.64,
@@ -5942,7 +5942,7 @@
   {
     "id": "notion-dbb50ce1052ac391",
     "symbol": "KKR",
-    "name": "KKR",
+    "name": "KKR & Co. Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 107.29,
@@ -5957,7 +5957,7 @@
   {
     "id": "notion-1c509fea0c728513",
     "symbol": "MKKGY",
-    "name": "MKKGY",
+    "name": "Merck KGaA",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 29.53,
@@ -5972,7 +5972,7 @@
   {
     "id": "notion-583dc41f1a37b066",
     "symbol": "OKLO",
-    "name": "OKLO",
+    "name": "Oklo Inc.",
     "sector": "電力能源",
     "recommendDate": "2026-02-09",
     "recommendPrice": 75.05,
@@ -5987,7 +5987,7 @@
   {
     "id": "notion-e6d27e8be6cf8d2c",
     "symbol": "PWR",
-    "name": "PWR",
+    "name": "Quanta Services, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-09",
     "recommendPrice": 514.56,
@@ -6002,7 +6002,7 @@
   {
     "id": "notion-a9fb8e3bad583006",
     "symbol": "VST",
-    "name": "VST",
+    "name": "Vistra Corp.",
     "sector": "電力能源",
     "recommendDate": "2026-02-09",
     "recommendPrice": 152.97,
@@ -6017,7 +6017,7 @@
   {
     "id": "notion-116670b94e6b64b0",
     "symbol": "AMAT",
-    "name": "AMAT",
+    "name": "Applied Materials, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-10",
     "recommendPrice": 329.07,
@@ -6032,7 +6032,7 @@
   {
     "id": "notion-9ddfb4b3bfbf2ad6",
     "symbol": "APLD",
-    "name": "APLD",
+    "name": "Applied Digital Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-10",
     "recommendPrice": 37.47,
@@ -6047,7 +6047,7 @@
   {
     "id": "notion-42311631f718cd73",
     "symbol": "AXTI",
-    "name": "AXTI",
+    "name": "AXT, Inc.",
     "sector": "半導體",
     "recommendDate": "2026-02-10",
     "recommendPrice": 24.35,
@@ -6062,7 +6062,7 @@
   {
     "id": "notion-0f70bd2e7f913dd7",
     "symbol": "BESIY",
-    "name": "BESIY",
+    "name": "BE Semiconductor Industries N.V.",
     "sector": "其他",
     "recommendDate": "2026-02-10",
     "recommendPrice": 201.84,
@@ -6077,7 +6077,7 @@
   {
     "id": "notion-2712b6294fdb9198",
     "symbol": "CIFR",
-    "name": "CIFR",
+    "name": "Cipher Mining Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-10",
     "recommendPrice": 17.1,
@@ -6092,7 +6092,7 @@
   {
     "id": "notion-b328e690e6e6ba4a",
     "symbol": "IREN",
-    "name": "IREN",
+    "name": "IREN Limited",
     "sector": "其他",
     "recommendDate": "2026-02-10",
     "recommendPrice": 42.93,
@@ -6107,7 +6107,7 @@
   {
     "id": "notion-73ba4c31505f55aa",
     "symbol": "LRCX",
-    "name": "LRCX",
+    "name": "Lam Research Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-10",
     "recommendPrice": 226.61,
@@ -6122,7 +6122,7 @@
   {
     "id": "notion-6e4ffcebd6ac9a1d",
     "symbol": "MU",
-    "name": "MU",
+    "name": "Micron Technology, Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-10",
     "recommendPrice": 373.25,
@@ -6137,7 +6137,7 @@
   {
     "id": "notion-ff0eac40f0eb2c41",
     "symbol": "NVDA",
-    "name": "NVDA",
+    "name": "NVIDIA Corporation",
     "sector": "AI晶片",
     "recommendDate": "2026-02-10",
     "recommendPrice": 188.54,
@@ -6152,7 +6152,7 @@
   {
     "id": "notion-2c42f6454a09507c",
     "symbol": "WULF",
-    "name": "WULF",
+    "name": "TeraWulf Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-10",
     "recommendPrice": 16.63,
@@ -6167,7 +6167,7 @@
   {
     "id": "notion-0e89480afdfc0523",
     "symbol": "AAPL",
-    "name": "AAPL",
+    "name": "Apple Inc.",
     "sector": "大型科技",
     "recommendDate": "2026-02-11",
     "recommendPrice": 273.68,
@@ -6182,7 +6182,7 @@
   {
     "id": "notion-c21cfd0ff29fdfa3",
     "symbol": "COST",
-    "name": "COST",
+    "name": "Costco Wholesale Corporation",
     "sector": "其他",
     "recommendDate": "2026-02-11",
     "recommendPrice": 971.23,
@@ -6197,7 +6197,7 @@
   {
     "id": "notion-6399b393b561ef90",
     "symbol": "HYG",
-    "name": "HYG",
+    "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
     "sector": "其他",
     "recommendDate": "2026-02-11",
     "recommendPrice": 80.84,
@@ -6212,7 +6212,7 @@
   {
     "id": "notion-dff072557d5f1bbb",
     "symbol": "IEF",
-    "name": "IEF",
+    "name": "iShares 7-10 Year Treasury Bond ETF",
     "sector": "其他",
     "recommendDate": "2026-02-11",
     "recommendPrice": 96.51,
@@ -6227,7 +6227,7 @@
   {
     "id": "notion-becdb826b4f160cd",
     "symbol": "IWM",
-    "name": "IWM",
+    "name": "iShares Russell 2000 ETF",
     "sector": "ETF",
     "recommendDate": "2026-02-11",
     "recommendPrice": 266.16,
@@ -6242,7 +6242,7 @@
   {
     "id": "notion-790b816f3016b4f4",
     "symbol": "MSFT",
-    "name": "MSFT",
+    "name": "Microsoft Corporation",
     "sector": "大型科技",
     "recommendDate": "2026-02-11",
     "recommendPrice": 413.27,
@@ -6272,7 +6272,7 @@
   {
     "id": "notion-46608c8aa4eb0abb",
     "symbol": "TLT",
-    "name": "TLT",
+    "name": "iShares 20+ Year Treasury Bond ETF",
     "sector": "ETF",
     "recommendDate": "2026-02-11",
     "recommendPrice": 88.53,
@@ -6287,7 +6287,7 @@
   {
     "id": "notion-d509f336e8b5c753",
     "symbol": "WMT",
-    "name": "WMT",
+    "name": "Walmart Inc.",
     "sector": "其他",
     "recommendDate": "2026-02-11",
     "recommendPrice": 126.7,
@@ -6302,7 +6302,7 @@
   {
     "id": "notion-4837fcae6320cd7e",
     "symbol": "XLY",
-    "name": "XLY",
+    "name": "State Street Consumer Discretionary Select Sector SPDR ETF",
     "sector": "ETF",
     "recommendDate": "2026-02-11",
     "recommendPrice": 118.33,
