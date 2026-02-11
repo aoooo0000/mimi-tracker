@@ -3,24 +3,38 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Recommendation } from "@/types/recommendation";
+import { useLiveQuotes } from "@/hooks/useLiveQuotes";
+import { calcReturnPct } from "@/lib/calc";
 
 interface Props {
-  rows: Array<Recommendation & { returnPct: number }>;
+  rows: Recommendation[];
   sectors: string[];
 }
 
 export default function SectorFilterRanking({ rows, sectors }: Props) {
   const [sector, setSector] = useState<string>("全部");
+  const uniqueSymbols = useMemo(() => [...new Set(rows.map((r) => r.symbol))], [rows]);
+  const { quotes, loading } = useLiveQuotes(uniqueSymbols);
 
   const display = useMemo(() => {
     const filtered = sector === "全部" ? rows : rows.filter((r) => r.sector === sector);
-    return filtered.sort((a, b) => b.returnPct - a.returnPct);
-  }, [rows, sector]);
+
+    return filtered
+      .map((r) => {
+        const live = quotes[r.symbol.toUpperCase()];
+        const returnPct = calcReturnPct(r.recommendPrice, typeof live === "number" ? live : undefined) ?? 0;
+        return {
+          ...r,
+          returnPct,
+        };
+      })
+      .sort((a, b) => b.returnPct - a.returnPct);
+  }, [rows, sector, quotes]);
 
   return (
     <div className="space-y-4 rounded-xl border border-slate-800 bg-slate-900/40 p-4">
       <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold text-slate-100">按報酬率排序</h2>
+        <h2 className="text-lg font-semibold text-slate-100">按報酬率排序 {loading ? "（更新中...）" : ""}</h2>
         <select
           value={sector}
           onChange={(e) => setSector(e.target.value)}
@@ -47,7 +61,7 @@ export default function SectorFilterRanking({ rows, sectors }: Props) {
                 <td className="py-2"><Link className="hover:text-cyan-300" href={`/symbols/${r.symbol}`}>{r.symbol} - {r.name}</Link></td>
                 <td className="py-2">{r.sector}</td>
                 <td className={`py-2 text-right ${r.returnPct >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
-                  {(r.returnPct?.toFixed(2) ?? "--")}%
+                  {r.returnPct.toFixed(2)}%
                 </td>
               </tr>
             ))}

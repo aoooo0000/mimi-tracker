@@ -4,13 +4,6 @@ import SectorFilterRanking from "@/components/SectorFilterRanking";
 export default async function PerformancePage() {
   const rows = await getRecommendations();
 
-  const withReturns = rows.map((r) => ({
-    ...r,
-    returnPct: r.recommendPrice != null && r.recommendPrice > 0
-      ? (((r.currentPrice ?? r.recommendPrice) - r.recommendPrice) / r.recommendPrice) * 100
-      : 0,
-  }));
-
   const groupedBySymbol = rows.reduce<Record<string, typeof rows>>((acc, row) => {
     acc[row.symbol] = acc[row.symbol] ?? [];
     acc[row.symbol].push(row);
@@ -28,7 +21,7 @@ export default async function PerformancePage() {
   return (
     <div className="space-y-6">
       <h1 className="text-2xl font-bold">績效排行</h1>
-      <SectorFilterRanking rows={withReturns} sectors={sectors} />
+      <SectorFilterRanking rows={rows} sectors={sectors} />
 
       <section className="card">
         <h2 className="mb-3 text-lg font-semibold">按推薦次數排序</h2>
