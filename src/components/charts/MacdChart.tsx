@@ -4,7 +4,7 @@ import { memo, useEffect, useRef } from "react";
 import { HistogramSeries, LineSeries, LineStyle, createChart, type Time } from "lightweight-charts";
 import type { ChartData } from "@/types/chart";
 
-function MacdChart({ data }: { data: ChartData }) {
+function MacdChart({ data, height = 240 }: { data: ChartData; height?: number }) {
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ function MacdChart({ data }: { data: ChartData }) {
     const chart = createChart(containerRef.current, {
       layout: { background: { color: "#0f172a" }, textColor: "#cbd5e1" },
       width: containerRef.current.clientWidth,
-      height: 200,
+      height,
       rightPriceScale: { borderColor: "#334155" },
       timeScale: { borderColor: "#334155" },
       grid: { vertLines: { color: "#1e293b" }, horzLines: { color: "#1e293b" } },
@@ -59,7 +59,7 @@ function MacdChart({ data }: { data: ChartData }) {
       window.removeEventListener("resize", onResize);
       chart.remove();
     };
-  }, [data]);
+  }, [data, height]);
 
   return <div ref={containerRef} className="relative w-full overflow-hidden rounded-xl border border-slate-800" />;
 }

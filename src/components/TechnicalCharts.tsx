@@ -26,19 +26,21 @@ function TechnicalCharts({ symbol, days = 120 }: { symbol: string; days?: number
       <div className="space-y-4">
         <div>
           <p className="mb-2 text-sm text-slate-300">K 線 + 均線 (SMA200 / SMA50 / EMA21 / EMA8)</p>
-          <CandlestickChart data={data} />
+          <CandlestickChart data={data} height={520} />
         </div>
-        <div>
-          <p className="mb-2 text-sm text-slate-300">MACD</p>
-          <MacdChart data={data} />
-        </div>
-        <div>
-          <p className="mb-2 text-sm text-slate-300">RSI</p>
-          <RsiChart data={data} />
+        <div className="grid gap-4 lg:grid-cols-2">
+          <div>
+            <p className="mb-2 text-sm text-slate-300">MACD</p>
+            <MacdChart data={data} height={280} />
+          </div>
+          <div>
+            <p className="mb-2 text-sm text-slate-300">RSI</p>
+            <RsiChart data={data} height={280} />
+          </div>
         </div>
         <div>
           <p className="mb-2 text-sm text-slate-300">布林帶</p>
-          <BollingerChart data={data} />
+          <BollingerChart data={data} height={320} />
         </div>
       </div>
     </section>

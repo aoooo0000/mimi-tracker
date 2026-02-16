@@ -19,7 +19,6 @@ type CacheEntry = {
 };
 
 const TTL_MS = 120_000;
-const MAX_SYMBOLS = 200;
 const BATCH_SIZE = 10;
 const signalsCache = new Map<string, CacheEntry>();
 
@@ -148,10 +147,6 @@ export async function GET(req: NextRequest) {
 
   if (!symbols.length) {
     return NextResponse.json({ error: "Missing symbols query parameter" }, { status: 400 });
-  }
-
-  if (symbols.length > MAX_SYMBOLS) {
-    return NextResponse.json({ error: `Too many symbols (max ${MAX_SYMBOLS})` }, { status: 400 });
   }
 
   const cacheKey = symbols.slice().sort().join(",");

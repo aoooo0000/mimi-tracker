@@ -4,7 +4,7 @@ import { memo, useEffect, useRef } from "react";
 import { CandlestickSeries, LineSeries, createChart, type Time } from "lightweight-charts";
 import type { ChartData } from "@/types/chart";
 
-function CandlestickChart({ data }: { data: ChartData }) {
+function CandlestickChart({ data, height = 460 }: { data: ChartData; height?: number }) {
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ function CandlestickChart({ data }: { data: ChartData }) {
     const chart = createChart(containerRef.current, {
       layout: { background: { color: "#0f172a" }, textColor: "#cbd5e1" },
       width: containerRef.current.clientWidth,
-      height: 400,
+      height,
       rightPriceScale: { borderColor: "#334155" },
       timeScale: { borderColor: "#334155" },
       crosshair: { mode: 0 },
@@ -80,7 +80,7 @@ function CandlestickChart({ data }: { data: ChartData }) {
       window.removeEventListener("resize", onResize);
       chart.remove();
     };
-  }, [data]);
+  }, [data, height]);
 
   return <div ref={containerRef} className="relative w-full overflow-hidden rounded-xl border border-slate-800" />;
 }

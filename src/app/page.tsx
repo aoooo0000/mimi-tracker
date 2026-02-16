@@ -4,6 +4,7 @@ import { QuotesProvider } from "@/components/QuotesProvider";
 import StatsCards from "@/components/StatsCards";
 import TopRanking from "@/components/TopRanking";
 import OpportunityScan from "@/components/OpportunityScan";
+import DashboardSignalsSummary from "@/components/DashboardSignalsSummary";
 import { getRecommendations } from "@/lib/recommendations";
 
 export default async function DashboardPage() {
@@ -47,6 +48,8 @@ export default async function DashboardPage() {
         </section>
 
         <OpportunityScan symbols={allSymbols} />
+
+        <DashboardSignalsSummary symbols={allSymbols} />
 
         <section className="card">
           <div className="mb-3 flex items-center justify-between">

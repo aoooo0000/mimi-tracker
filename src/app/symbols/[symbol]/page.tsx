@@ -4,6 +4,7 @@ import { QuotesProvider } from "@/components/QuotesProvider";
 import SymbolTrendChart from "@/components/SymbolTrendChart";
 import SymbolSignalsSection from "@/components/SymbolSignalsSection";
 import SymbolAnalysisSection from "@/components/SymbolAnalysisSection";
+import SymbolQuickSummaryCard from "@/components/SymbolQuickSummaryCard";
 import { getRecommendations } from "@/lib/recommendations";
 
 export default async function SymbolDetailPage({
@@ -32,6 +33,8 @@ export default async function SymbolDetailPage({
             </div>
           </div>
         </section>
+
+        <SymbolQuickSummaryCard symbol={meta.symbol} />
 
         <SymbolAnalysisSection symbol={meta.symbol} />
 
