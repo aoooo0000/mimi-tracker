@@ -19,8 +19,8 @@ type CacheEntry = {
 };
 
 const TTL_MS = 120_000;
-const MAX_SYMBOLS = 50;
-const BATCH_SIZE = 5;
+const MAX_SYMBOLS = 200;
+const BATCH_SIZE = 10;
 const signalsCache = new Map<string, CacheEntry>();
 
 function normalizeSymbols(input: string | null): string[] {
