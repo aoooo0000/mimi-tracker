@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import PriceCell from "@/components/PriceCell";
 import { QuotesProvider } from "@/components/QuotesProvider";
 import SymbolTrendChart from "@/components/SymbolTrendChart";
+import SymbolSignalsSection from "@/components/SymbolSignalsSection";
 import { getRecommendations } from "@/lib/recommendations";
 
 export default async function SymbolDetailPage({
@@ -29,6 +30,8 @@ export default async function SymbolDetailPage({
           <h2 className="mb-3 text-lg font-semibold">1 個月價格走勢</h2>
           <SymbolTrendChart symbol={meta.symbol} />
         </section>
+
+        <SymbolSignalsSection symbol={meta.symbol} />
 
         <section className="card">
           <h2 className="mb-3 text-lg font-semibold">推薦紀錄時間軸</h2>
