@@ -1,6 +1,7 @@
 "use client";
 
 import { useLiveAnalysis } from "@/hooks/useLiveAnalysis";
+import TechnicalCharts from "@/components/TechnicalCharts";
 
 function scoreTone(score: number) {
   if (score >= 6) return "text-emerald-300";
@@ -73,6 +74,8 @@ export default function SymbolAnalysisSection({ symbol }: { symbol: string }) {
               </div>
             </div>
           </section>
+
+          <TechnicalCharts symbol={symbol} />
 
           <section>
             <h2 className="mb-3 text-lg font-semibold">Mimi 訊號</h2>

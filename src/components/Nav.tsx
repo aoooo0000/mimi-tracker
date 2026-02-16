@@ -5,6 +5,7 @@ const links = [
   { href: "/sectors", label: "產業分類" },
   { href: "/performance", label: "績效排行" },
   { href: "/signals", label: "訊號掃描" },
+  { href: "/analyze", label: "分析器" },
 ];
 
 export default function Nav() {
