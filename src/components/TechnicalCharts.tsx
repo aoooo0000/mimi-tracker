@@ -13,8 +13,10 @@ function Toggle({ active, onClick, label }: { active: boolean; onClick: () => vo
   return (
     <button
       onClick={onClick}
-      className={`rounded-lg border px-3 py-1 text-xs transition ${
-        active ? "border-cyan-400 bg-cyan-500/20 text-cyan-100" : "border-slate-700 bg-slate-900 text-slate-300"
+      className={`rounded-full border px-3 py-1 text-xs transition ${
+        active
+          ? "border-blue-400/60 bg-blue-500/20 text-blue-100 shadow-[0_0_0_1px_rgba(96,165,250,0.3)]"
+          : "border-slate-700/70 bg-slate-900/80 text-slate-300 hover:bg-slate-800"
       }`}
     >
       {label}
@@ -38,14 +40,16 @@ function TechnicalCharts({ symbol, days = 180 }: { symbol: string; days?: number
   }
 
   return (
-    <section className="space-y-3">
-      <h2 className="text-lg font-semibold">技術分析圖表</h2>
+    <section className="rounded-xl border border-slate-700/50 bg-[#111827] p-4">
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+        <h2 className="text-lg font-semibold">📈 技術分析圖表</h2>
 
-      <div className="flex flex-wrap gap-2">
-        <Toggle active={showMA} onClick={() => setShowMA((v) => !v)} label="均線" />
-        <Toggle active={showBollinger} onClick={() => setShowBollinger((v) => !v)} label="布林帶" />
-        <Toggle active={showDarvas} onClick={() => setShowDarvas((v) => !v)} label="Darvas Box" />
-        <Toggle active={showVolume} onClick={() => setShowVolume((v) => !v)} label="成交量" />
+        <div className="flex flex-wrap gap-2">
+          <Toggle active={showMA} onClick={() => setShowMA((v) => !v)} label="均線" />
+          <Toggle active={showBollinger} onClick={() => setShowBollinger((v) => !v)} label="布林帶" />
+          <Toggle active={showDarvas} onClick={() => setShowDarvas((v) => !v)} label="Darvas Box" />
+          <Toggle active={showVolume} onClick={() => setShowVolume((v) => !v)} label="成交量" />
+        </div>
       </div>
 
       <CandlestickChart
@@ -57,7 +61,7 @@ function TechnicalCharts({ symbol, days = 180 }: { symbol: string; days?: number
         showVolume={showVolume}
       />
 
-      <div className="grid gap-3 xl:grid-cols-3">
+      <div className="mt-3 grid gap-3 xl:grid-cols-3">
         <div>
           <p className="mb-2 text-xs text-slate-300">MACD (12,26,9)</p>
           <MacdChart data={data} height={220} />
@@ -72,7 +76,7 @@ function TechnicalCharts({ symbol, days = 180 }: { symbol: string; days?: number
         </div>
       </div>
 
-      <div className="rounded-xl border border-slate-800 bg-slate-900/40 p-3 text-xs text-slate-300">
+      <div className="mt-3 rounded-xl border border-slate-700/50 bg-slate-900/40 p-3 text-xs text-slate-300">
         <p>💡 MACD 柱狀圖顏色：綠色系=多方，紅色系=空方；淺色=動能增加，深色=動能減少</p>
         <p className="mt-1">💡 TTM Squeeze：紅點=Squeeze ON，綠點=OFF</p>
         <p className="mt-1">💡 Darvas Box：綠色虛線=箱頂，紅色虛線=箱底</p>
