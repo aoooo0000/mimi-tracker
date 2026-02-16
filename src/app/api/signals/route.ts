@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import type { SignalResult, SignalsApiResponse } from "@/types/signals";
+import { bollinger, ema, rsi, sma, toFixedNum } from "@/lib/technicals";
 
 type FmpHistoricalBar = {
   date: string;
@@ -9,7 +10,6 @@ type FmpHistoricalBar = {
 };
 
 type FmpHistoricalResponse = {
-  symbol?: string;
   historical?: FmpHistoricalBar[];
 };
 
@@ -25,80 +25,7 @@ const signalsCache = new Map<string, CacheEntry>();
 
 function normalizeSymbols(input: string | null): string[] {
   if (!input) return [];
-
   return [...new Set(input.split(",").map((s) => s.trim().toUpperCase()).filter(Boolean))];
-}
-
-function sma(values: number[], period: number): number[] {
-  const out = new Array<number>(values.length).fill(NaN);
-  let sum = 0;
-  for (let i = 0; i < values.length; i += 1) {
-    sum += values[i];
-    if (i >= period) sum -= values[i - period];
-    if (i >= period - 1) out[i] = sum / period;
-  }
-  return out;
-}
-
-function ema(values: number[], period: number): number[] {
-  const out = new Array<number>(values.length).fill(NaN);
-  if (values.length < period) return out;
-
-  let seed = 0;
-  for (let i = 0; i < period; i += 1) seed += values[i];
-  out[period - 1] = seed / period;
-
-  const k = 2 / (period + 1);
-  for (let i = period; i < values.length; i += 1) {
-    out[i] = values[i] * k + out[i - 1] * (1 - k);
-  }
-
-  return out;
-}
-
-function stddev(values: number[], period: number): number[] {
-  const out = new Array<number>(values.length).fill(NaN);
-  for (let i = period - 1; i < values.length; i += 1) {
-    const window = values.slice(i - period + 1, i + 1);
-    const avg = window.reduce((acc, v) => acc + v, 0) / period;
-    const variance = window.reduce((acc, v) => acc + (v - avg) ** 2, 0) / period;
-    out[i] = Math.sqrt(variance);
-  }
-  return out;
-}
-
-function rsi(values: number[], period: number): number[] {
-  const out = new Array<number>(values.length).fill(NaN);
-  if (values.length <= period) return out;
-
-  let gainSum = 0;
-  let lossSum = 0;
-
-  for (let i = 1; i <= period; i += 1) {
-    const change = values[i] - values[i - 1];
-    if (change >= 0) gainSum += change;
-    else lossSum -= change;
-  }
-
-  let avgGain = gainSum / period;
-  let avgLoss = lossSum / period;
-  out[period] = avgLoss === 0 ? 100 : 100 - 100 / (1 + avgGain / avgLoss);
-
-  for (let i = period + 1; i < values.length; i += 1) {
-    const change = values[i] - values[i - 1];
-    const gain = change > 0 ? change : 0;
-    const loss = change < 0 ? -change : 0;
-    avgGain = (avgGain * (period - 1) + gain) / period;
-    avgLoss = (avgLoss * (period - 1) + loss) / period;
-    out[i] = avgLoss === 0 ? 100 : 100 - 100 / (1 + avgGain / avgLoss);
-  }
-
-  return out;
-}
-
-function toFixedNum(input: number, digits = 2): number {
-  if (!Number.isFinite(input)) return 0;
-  return Number(input.toFixed(digits));
 }
 
 function buildSignalResult(symbol: string, bars: FmpHistoricalBar[]): SignalResult {
@@ -114,12 +41,9 @@ function buildSignalResult(symbol: string, bars: FmpHistoricalBar[]): SignalResu
   const sma200 = sma(closes, 200);
   const rsi14 = rsi(closes, 14);
 
-  const bbMid = sma(closes, 20);
-  const bbStd = stddev(closes, 20);
-  const bbUpper = bbMid.map((m, i) => (Number.isFinite(m) && Number.isFinite(bbStd[i]) ? m + 2 * bbStd[i] : NaN));
-  const bbLower = bbMid.map((m, i) => (Number.isFinite(m) && Number.isFinite(bbStd[i]) ? m - 2 * bbStd[i] : NaN));
+  const { upper: bbUpper, middle: bbMid, lower: bbLower } = bollinger(closes, 20, 2);
   const bbWidth = bbMid.map((m, i) => {
-    if (!Number.isFinite(m) || m === 0 || !Number.isFinite(bbUpper[i]) || !Number.isFinite(bbLower[i])) return NaN;
+    if (!Number.isFinite(m) || m === 0 || !Number.isFinite(bbUpper[i]) || !Number.isFinite(bbLower[i])) return Number.NaN;
     return (bbUpper[i] - bbLower[i]) / m;
   });
 
@@ -129,7 +53,7 @@ function buildSignalResult(symbol: string, bars: FmpHistoricalBar[]): SignalResu
   const price = closes[i] ?? 0;
   const prevClose = closes[prev] ?? price;
   const change = prevClose ? ((price - prevClose) / prevClose) * 100 : 0;
-  const rsiValue = rsi14[i] ?? NaN;
+  const rsiValue = rsi14[i] ?? Number.NaN;
 
   const emaBullish = Number.isFinite(ema8[i]) && Number.isFinite(ema21[i]) ? ema8[i] > ema21[i] : false;
   const emaCrossEntry =
@@ -160,7 +84,7 @@ function buildSignalResult(symbol: string, bars: FmpHistoricalBar[]): SignalResu
   const rsiExit = Number.isFinite(rsiValue) && rsiValue > 70;
 
   const squeezeWindow = bbWidth.slice(Math.max(0, i - 19), i + 1).filter((v) => Number.isFinite(v));
-  const minWidth = squeezeWindow.length ? Math.min(...squeezeWindow) : NaN;
+  const minWidth = squeezeWindow.length ? Math.min(...squeezeWindow) : Number.NaN;
   const bbSqueeze =
     Number.isFinite(bbWidth[i]) &&
     Number.isFinite(minWidth) &&

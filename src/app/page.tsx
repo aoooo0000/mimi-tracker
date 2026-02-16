@@ -3,6 +3,7 @@ import PriceCell from "@/components/PriceCell";
 import { QuotesProvider } from "@/components/QuotesProvider";
 import StatsCards from "@/components/StatsCards";
 import TopRanking from "@/components/TopRanking";
+import OpportunityScan from "@/components/OpportunityScan";
 import { getRecommendations } from "@/lib/recommendations";
 
 export default async function DashboardPage() {
@@ -44,6 +45,8 @@ export default async function DashboardPage() {
           <TopRanking rows={rankingRows} title="最佳推薦 Top 5" best={true} />
           <TopRanking rows={rankingRows} title="最差推薦 Top 5" best={false} />
         </section>
+
+        <OpportunityScan symbols={allSymbols} />
 
         <section className="card">
           <div className="mb-3 flex items-center justify-between">

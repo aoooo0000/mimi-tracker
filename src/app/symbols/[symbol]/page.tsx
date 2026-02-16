@@ -3,6 +3,7 @@ import PriceCell from "@/components/PriceCell";
 import { QuotesProvider } from "@/components/QuotesProvider";
 import SymbolTrendChart from "@/components/SymbolTrendChart";
 import SymbolSignalsSection from "@/components/SymbolSignalsSection";
+import SymbolAnalysisSection from "@/components/SymbolAnalysisSection";
 import { getRecommendations } from "@/lib/recommendations";
 
 export default async function SymbolDetailPage({
@@ -24,14 +25,22 @@ export default async function SymbolDetailPage({
         <section className="card">
           <h1 className="text-2xl font-bold">{meta.symbol} · {meta.name}</h1>
           <p className="mt-2 text-sm text-slate-400">板塊：{meta.sector}｜來源追蹤筆數：{filtered.length}</p>
+          <div className="mt-3 max-w-xs rounded-lg border border-slate-800 bg-slate-900/60 p-3">
+            <p className="text-xs text-slate-400">即時報價 / 相對推薦價</p>
+            <div className="mt-2">
+              <PriceCell symbol={meta.symbol} recommendPrice={meta.recommendPrice ?? 0} />
+            </div>
+          </div>
         </section>
+
+        <SymbolAnalysisSection symbol={meta.symbol} />
+
+        <SymbolSignalsSection symbol={meta.symbol} />
 
         <section>
           <h2 className="mb-3 text-lg font-semibold">1 個月價格走勢</h2>
           <SymbolTrendChart symbol={meta.symbol} />
         </section>
-
-        <SymbolSignalsSection symbol={meta.symbol} />
 
         <section className="card">
           <h2 className="mb-3 text-lg font-semibold">推薦紀錄時間軸</h2>
