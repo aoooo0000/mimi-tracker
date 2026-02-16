@@ -1,10 +1,26 @@
 "use client";
 
 import { memo, useEffect, useRef } from "react";
-import { CandlestickSeries, LineSeries, createChart, type Time } from "lightweight-charts";
+import { CandlestickSeries, HistogramSeries, LineSeries, LineStyle, createChart, type Time } from "lightweight-charts";
 import type { ChartData } from "@/types/chart";
 
-function CandlestickChart({ data, height = 460 }: { data: ChartData; height?: number }) {
+interface Props {
+  data: ChartData;
+  height?: number;
+  showMA?: boolean;
+  showBollinger?: boolean;
+  showDarvas?: boolean;
+  showVolume?: boolean;
+}
+
+function CandlestickChart({
+  data,
+  height = 460,
+  showMA = true,
+  showBollinger = false,
+  showDarvas = true,
+  showVolume = false,
+}: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -29,46 +45,50 @@ function CandlestickChart({ data, height = 460 }: { data: ChartData; height?: nu
     });
     candleSeries.setData(data.candles.map((c) => ({ ...c, time: c.time as Time })));
 
-    const sma200 = chart.addSeries(LineSeries, { color: "#ffffff", lineWidth: 2 });
-    const sma50 = chart.addSeries(LineSeries, { color: "#facc15", lineWidth: 2 });
-    const ema21 = chart.addSeries(LineSeries, { color: "#fb923c", lineWidth: 2 });
-    const ema8 = chart.addSeries(LineSeries, { color: "#22d3ee", lineWidth: 2 });
-    sma200.setData(data.indicators.sma200.map((p) => ({ ...p, time: p.time as Time })));
-    sma50.setData(data.indicators.sma50.map((p) => ({ ...p, time: p.time as Time })));
-    ema21.setData(data.indicators.ema21.map((p) => ({ ...p, time: p.time as Time })));
-    ema8.setData(data.indicators.ema8.map((p) => ({ ...p, time: p.time as Time })));
+    if (showMA) {
+      const sma200 = chart.addSeries(LineSeries, { color: "#ffffff", lineWidth: 2 });
+      const sma50 = chart.addSeries(LineSeries, { color: "#facc15", lineWidth: 2 });
+      const sma20 = chart.addSeries(LineSeries, { color: "#38bdf8", lineWidth: 1 });
+      const ema21 = chart.addSeries(LineSeries, { color: "#fb923c", lineWidth: 2 });
+      const ema8 = chart.addSeries(LineSeries, { color: "#22d3ee", lineWidth: 2 });
+      sma200.setData(data.indicators.sma200.map((p) => ({ ...p, time: p.time as Time })));
+      sma50.setData(data.indicators.sma50.map((p) => ({ ...p, time: p.time as Time })));
+      sma20.setData(data.indicators.sma20.map((p) => ({ ...p, time: p.time as Time })));
+      ema21.setData(data.indicators.ema21.map((p) => ({ ...p, time: p.time as Time })));
+      ema8.setData(data.indicators.ema8.map((p) => ({ ...p, time: p.time as Time })));
+    }
 
-    const legend = document.createElement("div");
-    legend.className = "pointer-events-none absolute right-3 top-3 rounded bg-slate-900/90 px-2 py-1 text-xs text-slate-200";
-    containerRef.current.appendChild(legend);
+    if (showBollinger) {
+      const upper = chart.addSeries(LineSeries, { color: "#a78bfa", lineWidth: 1 });
+      const middle = chart.addSeries(LineSeries, { color: "#e2e8f0", lineWidth: 1, lineStyle: LineStyle.Dotted });
+      const lower = chart.addSeries(LineSeries, { color: "#a78bfa", lineWidth: 1 });
+      upper.setData(data.indicators.bollinger.map((p) => ({ time: p.time as Time, value: p.upper })));
+      middle.setData(data.indicators.bollinger.map((p) => ({ time: p.time as Time, value: p.middle })));
+      lower.setData(data.indicators.bollinger.map((p) => ({ time: p.time as Time, value: p.lower })));
+    }
 
-    const setLegend = (time?: Time) => {
-      const getLast = (series: { time: string; value: number }[]) => {
-        if (!time) return series.at(-1)?.value;
-        const exact = series.find((s) => s.time === time);
-        return exact?.value ?? series.at(-1)?.value;
-      };
-      legend.innerText = `SMA200 ${getLast(data.indicators.sma200)?.toFixed(2) ?? "--"} · SMA50 ${getLast(data.indicators.sma50)?.toFixed(2) ?? "--"} · EMA21 ${getLast(data.indicators.ema21)?.toFixed(2) ?? "--"} · EMA8 ${getLast(data.indicators.ema8)?.toFixed(2) ?? "--"}`;
-    };
+    if (showDarvas) {
+      const top = chart.addSeries(LineSeries, { color: "#4ade80", lineWidth: 1, lineStyle: LineStyle.Dashed });
+      const bottom = chart.addSeries(LineSeries, { color: "#f87171", lineWidth: 1, lineStyle: LineStyle.Dashed });
+      top.setData(data.candles.map((c) => ({ time: c.time as Time, value: data.indicators.darvas.top })));
+      bottom.setData(data.candles.map((c) => ({ time: c.time as Time, value: data.indicators.darvas.bottom })));
+    }
 
-    setLegend();
-
-    const tooltip = document.createElement("div");
-    tooltip.className = "pointer-events-none absolute left-3 top-3 rounded bg-slate-950/90 px-2 py-1 text-xs text-slate-200";
-    containerRef.current.appendChild(tooltip);
-
-    chart.subscribeCrosshairMove((param) => {
-      const point = param.seriesData.get(candleSeries) as
-        | { open: number; high: number; low: number; close: number }
-        | undefined;
-      const time = param.time as Time | undefined;
-      setLegend(time);
-      if (!point || !time) {
-        tooltip.innerText = "";
-        return;
-      }
-      tooltip.innerText = `${time} O:${point.open.toFixed(2)} H:${point.high.toFixed(2)} L:${point.low.toFixed(2)} C:${point.close.toFixed(2)}`;
-    });
+    if (showVolume) {
+      const volumeSeries = chart.addSeries(HistogramSeries, {
+        color: "#64748b",
+        priceFormat: { type: "volume" },
+        priceScaleId: "",
+      });
+      volumeSeries.priceScale().applyOptions({ scaleMargins: { top: 0.75, bottom: 0 } });
+      volumeSeries.setData(
+        data.candles.map((c) => ({
+          time: c.time as Time,
+          value: c.volume,
+          color: c.close >= c.open ? "rgba(34,197,94,0.5)" : "rgba(239,68,68,0.5)",
+        })),
+      );
+    }
 
     const onResize = () => {
       if (!containerRef.current) return;
@@ -80,7 +100,7 @@ function CandlestickChart({ data, height = 460 }: { data: ChartData; height?: nu
       window.removeEventListener("resize", onResize);
       chart.remove();
     };
-  }, [data, height]);
+  }, [data, height, showMA, showBollinger, showDarvas, showVolume]);
 
   return <div ref={containerRef} className="relative w-full overflow-hidden rounded-xl border border-slate-800" />;
 }

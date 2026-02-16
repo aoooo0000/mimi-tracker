@@ -92,3 +92,88 @@ export function bollinger(values: number[], period = 20, stdMul = 2) {
   const lower = middle.map((m, i) => (Number.isFinite(m) && Number.isFinite(sd[i]) ? m - sd[i] * stdMul : Number.NaN));
   return { upper, middle, lower };
 }
+
+export function atr(highs: number[], lows: number[], closes: number[], period = 14): number[] {
+  const tr = highs.map((high, i) => {
+    if (i === 0) return high - lows[i];
+    return Math.max(high - lows[i], Math.abs(high - closes[i - 1]), Math.abs(lows[i] - closes[i - 1]));
+  });
+
+  const out = new Array<number>(highs.length).fill(Number.NaN);
+  if (tr.length < period) return out;
+  let sum = 0;
+  for (let i = 0; i < period; i += 1) sum += tr[i];
+  out[period - 1] = sum / period;
+  for (let i = period; i < tr.length; i += 1) {
+    out[i] = (out[i - 1] * (period - 1) + tr[i]) / period;
+  }
+  return out;
+}
+
+export function adx(highs: number[], lows: number[], closes: number[], period = 14): number[] {
+  const len = highs.length;
+  const plusDm = new Array<number>(len).fill(0);
+  const minusDm = new Array<number>(len).fill(0);
+
+  for (let i = 1; i < len; i += 1) {
+    const upMove = highs[i] - highs[i - 1];
+    const downMove = lows[i - 1] - lows[i];
+    plusDm[i] = upMove > downMove && upMove > 0 ? upMove : 0;
+    minusDm[i] = downMove > upMove && downMove > 0 ? downMove : 0;
+  }
+
+  const tr = atr(highs, lows, closes, 1);
+  const smooth = (arr: number[]) => {
+    const out = new Array<number>(len).fill(Number.NaN);
+    if (len < period) return out;
+    let acc = 0;
+    for (let i = 1; i <= period; i += 1) acc += arr[i] ?? 0;
+    out[period] = acc;
+    for (let i = period + 1; i < len; i += 1) out[i] = out[i - 1] - out[i - 1] / period + (arr[i] ?? 0);
+    return out;
+  };
+
+  const smoothTr = smooth(tr);
+  const smoothPlus = smooth(plusDm);
+  const smoothMinus = smooth(minusDm);
+
+  const dx = new Array<number>(len).fill(Number.NaN);
+  for (let i = period; i < len; i += 1) {
+    if (!Number.isFinite(smoothTr[i]) || smoothTr[i] === 0) continue;
+    const plusDi = (100 * (smoothPlus[i] ?? 0)) / smoothTr[i];
+    const minusDi = (100 * (smoothMinus[i] ?? 0)) / smoothTr[i];
+    const denom = plusDi + minusDi;
+    dx[i] = denom === 0 ? 0 : (100 * Math.abs(plusDi - minusDi)) / denom;
+  }
+
+  const adxOut = new Array<number>(len).fill(Number.NaN);
+  if (len <= period * 2) return adxOut;
+  let first = 0;
+  for (let i = period; i < period * 2; i += 1) first += Number.isFinite(dx[i]) ? dx[i] : 0;
+  adxOut[period * 2 - 1] = first / period;
+
+  for (let i = period * 2; i < len; i += 1) {
+    adxOut[i] = ((adxOut[i - 1] ?? 0) * (period - 1) + (Number.isFinite(dx[i]) ? dx[i] : 0)) / period;
+  }
+  return adxOut;
+}
+
+export function linregSlope(values: number[]): number {
+  const n = values.length;
+  if (!n) return 0;
+  let sumX = 0;
+  let sumY = 0;
+  let sumXY = 0;
+  let sumXX = 0;
+  for (let i = 0; i < n; i += 1) {
+    const x = i + 1;
+    const y = values[i];
+    sumX += x;
+    sumY += y;
+    sumXY += x * y;
+    sumXX += x * x;
+  }
+  const denom = n * sumXX - sumX * sumX;
+  if (!denom) return 0;
+  return (n * sumXY - sumX * sumY) / denom;
+}

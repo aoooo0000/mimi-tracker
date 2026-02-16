@@ -36,7 +36,7 @@ export default async function SymbolDetailPage({
 
         <SymbolQuickSummaryCard symbol={meta.symbol} />
 
-        <SymbolAnalysisSection symbol={meta.symbol} />
+        <SymbolAnalysisSection symbol={meta.symbol} companyName={meta.name} />
 
         <SymbolSignalsSection symbol={meta.symbol} />
 

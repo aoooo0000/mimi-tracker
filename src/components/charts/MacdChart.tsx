@@ -21,11 +21,16 @@ function MacdChart({ data, height = 240 }: { data: ChartData; height?: number })
 
     const hist = chart.addSeries(HistogramSeries, { priceFormat: { type: "price", precision: 4, minMove: 0.0001 } });
     hist.setData(
-      data.indicators.macd.map((p) => ({
-        time: p.time as Time,
-        value: p.histogram,
-        color: p.histogram >= 0 ? "#22c55e" : "#ef4444",
-      })),
+      data.indicators.macd.map((p, idx, arr) => {
+        const increasing = idx > 0 ? p.histogram >= arr[idx - 1].histogram : true;
+        const bull = p.histogram >= 0;
+        const color = bull ? (increasing ? "#86efac" : "#16a34a") : increasing ? "#fca5a5" : "#dc2626";
+        return {
+          time: p.time as Time,
+          value: p.histogram,
+          color,
+        };
+      }),
     );
 
     const macdLine = chart.addSeries(LineSeries, { color: "#3b82f6", lineWidth: 2 });
